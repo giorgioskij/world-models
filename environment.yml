@@ -1,0 +1,20 @@
+name: world-models
+channels:
+  - pytorch
+dependencies:
+  - cudatoolkit
+  - jupyter
+  - matplotlib
+  - pip
+  - python
+  - pytorch
+  - tqdm
+  - pip:
+    - cma
+    - gym==0.26.1
+    - gym[box2d]
+    - pygame
+    - pytorch-lightning
+    - procgen
+    - torchinfo
+    - wandb

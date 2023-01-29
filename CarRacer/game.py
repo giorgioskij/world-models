@@ -326,14 +326,14 @@ class VAECGame(multiprocessing.Process):
         start_time = timeit.default_timer()
         env = ResizeFrame(CarRacing(render_mode=self.render_mode))
 
-        for _ in range(config.REPEAT_ROLLOUT):
+        for _ in range(config.REPEAT_ROLLOUT_TEST):
             obs, info = env.reset()
             done = False
             total_reward = 0
             total_steps = 0
             current_rewards = []
 
-            for _ in range(config.MAX_STEPS):
+            for _ in range(config.MAX_STEPS_TEST):
                 with torch.no_grad():
 
                     if self.lstm.hidden is None:

@@ -13,7 +13,8 @@ class ChaserAction(Enum):
     RIGHT = 7
     RIGHT_UP = 8
 
-    def sample():  #type: ignore
+    @staticmethod
+    def sample(): 
         return random.sample(list(ChaserAction.__members__.values()),
                              1)[0].value
 
@@ -26,23 +27,42 @@ class DodgeballAction(Enum):
     NOOP = 4
     THROW = 9
 
-    def sample():  #type: ignore
+    @staticmethod
+    def sample():
         return random.sample(list(DodgeballAction.__members__.values()),
+                             1)[0].value
+
+
+class EnduroAction(Enum):
+    NOOP = 0
+    UP = 1
+    RIGHT = 2
+    LEFT = 3
+    DOWN = 4
+
+    @staticmethod
+    def sample(): 
+        return random.sample(list(EnduroAction.__members__.values()),
                              1)[0].value
 
 
 class Games(Enum):
     CHASER = ("procgen:procgen-chaser-v0", len(ChaserAction))
     DODGEBALL = ("procgen:procgen-dodgeball-v0", len(DodgeballAction))
+    ENDURO = ("ALE/Enduro-v5"), len(EnduroAction)
+    
 
     def __init__(self, longname: str, num_actions: int):
         self.longname = longname
         self.num_actions = num_actions
 
-    def sampleAction(self):
-        if self == Games.CHASER:
-            return ChaserAction.sample()
-        elif self == Games.DODGEBALL:
-            return DodgeballAction.sample()
-        else:
-            raise NotImplementedError
+    def sample_action(self):
+        match self:
+            case Games.CHASER: 
+                return ChaserAction.sample()
+            case Games.DODGEBALL:
+                return DodgeballAction.sample()
+            case Games.ENDURO:
+                return EnduroAction.sample()
+            case _:
+                raise NotImplementedError

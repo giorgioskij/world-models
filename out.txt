@@ -1,0 +1,4000 @@
+(20_w,40)-aCMA-ES (mu_w=11.3,w_1=16%) in dimension 1445 (seed=175150, Wed Jan 18 20:10:06 2023)
+[CONTROLLER] Creating generation: 1 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 1.0
+[4 / 40] Final mean reward: 0.0
+[1 / 40] Final mean reward: 0.25
+[2 / 40] Final mean reward: 2.75
+[8 / 40] Final mean reward: 0.0
+[5 / 40] Final mean reward: 0.0
+[7 / 40] Final mean reward: 0.0
+[6 / 40] Final mean reward: 0.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 0.0
+[12 / 40] Final mean reward: 0.0
+[10 / 40] Final mean reward: 0.0
+[9 / 40] Final mean reward: 0.0
+[14 / 40] Final mean reward: 0.0
+[13 / 40] Final mean reward: 0.0
+[16 / 40] Final mean reward: 0.0
+[11 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 2.25
+[23 / 40] Final mean reward: 0.0
+[20 / 40] Final mean reward: 2.75
+[17 / 40] Final mean reward: 0.0
+[21 / 40] Final mean reward: 0.0
+[24 / 40] Final mean reward: 0.0
+[19 / 40] Final mean reward: 0.0
+[22 / 40] Final mean reward: 0.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 0.0
+[25 / 40] Final mean reward: 0.5
+[30 / 40] Final mean reward: 0.0
+[28 / 40] Final mean reward: 0.0
+[31 / 40] Final mean reward: 0.75
+[32 / 40] Final mean reward: 0.0
+[29 / 40] Final mean reward: 1.0
+[27 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 0.0
+[35 / 40] Final mean reward: 0.0
+[40 / 40] Final mean reward: 0.25
+[37 / 40] Final mean reward: 0.0
+[39 / 40] Final mean reward: 0.0
+[33 / 40] Final mean reward: 0.0
+[38 / 40] Final mean reward: 0.0
+[36 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+End of population for generation 1.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: -inf, new run best score: 2.75
+[CONTROLLER] Average score on all of the processes: 0.31875
+
+[CONTROLLER] Creating generation: 2 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 0.0
+[2 / 40] Final mean reward: 0.0
+[6 / 40] Final mean reward: 1.25
+[5 / 40] Final mean reward: 5.0
+[8 / 40] Final mean reward: 0.0
+[4 / 40] Final mean reward: 0.0
+[7 / 40] Final mean reward: 0.0
+[1 / 40] Final mean reward: 0.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 0.5
+[12 / 40] Final mean reward: 0.5
+[9 / 40] Final mean reward: 0.0
+[10 / 40] Final mean reward: 0.5
+[16 / 40] Final mean reward: 0.25
+[15 / 40] Final mean reward: 0.0
+[13 / 40] Final mean reward: 0.0
+[11 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 1.5
+[21 / 40] Final mean reward: 8.5
+[20 / 40] Final mean reward: 1.25
+[19 / 40] Final mean reward: 0.0
+[22 / 40] Final mean reward: 2.25
+[23 / 40] Final mean reward: 0.0
+[17 / 40] Final mean reward: 0.0
+[24 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 0.0
+[25 / 40] Final mean reward: 1.75
+[30 / 40] Final mean reward: 0.0
+[29 / 40] Final mean reward: 0.0
+[32 / 40] Final mean reward: 2.25
+[26 / 40] Final mean reward: 0.0
+[31 / 40] Final mean reward: 1.75
+[27 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[40 / 40] Final mean reward: 0.0
+[34 / 40] Final mean reward: 0.0
+[38 / 40] Final mean reward: 0.0
+[39 / 40] Final mean reward: 0.0
+[35 / 40] Final mean reward: 4.25
+[36 / 40] Final mean reward: 0.0
+[37 / 40] Final mean reward: 0.0
+[33 / 40] Final mean reward: 0.75
+[CONTROLLER] done with batch
+End of population for generation 2.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 2.75, new run best score: 8.5
+[CONTROLLER] Average score on all of the processes: 0.81875
+
+[CONTROLLER] Creating generation: 3 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 2.25
+[6 / 40] Final mean reward: 5.0
+[7 / 40] Final mean reward: 1.0
+[5 / 40] Final mean reward: 7.25
+[2 / 40] Final mean reward: 3.0
+[1 / 40] Final mean reward: 1.75
+[3 / 40] Final mean reward: 4.5
+[8 / 40] Final mean reward: 6.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 1.75
+[15 / 40] Final mean reward: 0.75
+[9 / 40] Final mean reward: 0.5
+[16 / 40] Final mean reward: 3.0
+[13 / 40] Final mean reward: 5.0
+[12 / 40] Final mean reward: 1.75
+[10 / 40] Final mean reward: 0.0
+[14 / 40] Final mean reward: 0.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 0.0
+[18 / 40] Final mean reward: 1.25
+[23 / 40] Final mean reward: 1.5
+[19 / 40] Final mean reward: 5.25
+[24 / 40] Final mean reward: 0.0
+[20 / 40] Final mean reward: 1.75
+[22 / 40] Final mean reward: 1.75
+[17 / 40] Final mean reward: 0.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 0.75
+[26 / 40] Final mean reward: 0.0
+[32 / 40] Final mean reward: 0.0
+[31 / 40] Final mean reward: 0.0
+[30 / 40] Final mean reward: 0.0
+[27 / 40] Final mean reward: 2.25
+[29 / 40] Final mean reward: 1.75
+[25 / 40] Final mean reward: 1.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 1.5
+[37 / 40] Final mean reward: 1.5
+[35 / 40] Final mean reward: 1.5
+[36 / 40] Final mean reward: 0.5
+[38 / 40] Final mean reward: 2.5
+[40 / 40] Final mean reward: 0.0
+[33 / 40] Final mean reward: 4.25
+[34 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+End of population for generation 3.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 8.5, new run best score: 7.25
+[CONTROLLER] Average score on all of the processes: 1.91875
+
+[CONTROLLER] Creating generation: 4 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 0.0
+[4 / 40] Final mean reward: 4.75
+[1 / 40] Final mean reward: 1.75
+[5 / 40] Final mean reward: 6.5
+[8 / 40] Final mean reward: 3.25
+[6 / 40] Final mean reward: 0.75
+[3 / 40] Final mean reward: 12.5
+[2 / 40] Final mean reward: 4.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 0.25
+[12 / 40] Final mean reward: 6.25
+[14 / 40] Final mean reward: 0.0
+[13 / 40] Final mean reward: 5.0
+[16 / 40] Final mean reward: 4.75
+[11 / 40] Final mean reward: 0.0
+[15 / 40] Final mean reward: 1.5
+[9 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 9.75
+[20 / 40] Final mean reward: 5.0
+[23 / 40] Final mean reward: 0.0
+[22 / 40] Final mean reward: 4.0
+[18 / 40] Final mean reward: 5.75
+[19 / 40] Final mean reward: 2.0
+[24 / 40] Final mean reward: 1.25
+[17 / 40] Final mean reward: 2.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 0.25
+[32 / 40] Final mean reward: 5.75
+[31 / 40] Final mean reward: 4.75
+[30 / 40] Final mean reward: 3.75
+[25 / 40] Final mean reward: 0.75
+[29 / 40] Final mean reward: 0.0
+[27 / 40] Final mean reward: 1.25
+[26 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 1.0
+[38 / 40] Final mean reward: 2.25
+[36 / 40] Final mean reward: 3.5
+[37 / 40] Final mean reward: 4.5
+[40 / 40] Final mean reward: 0.0
+[39 / 40] Final mean reward: 4.25
+[34 / 40] Final mean reward: 3.0
+[35 / 40] Final mean reward: 2.5
+[CONTROLLER] done with batch
+End of population for generation 4.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 8.5, new run best score: 12.5
+[CONTROLLER] Average score on all of the processes: 3.1375
+
+[CONTROLLER] Creating generation: 5 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 8.25
+[6 / 40] Final mean reward: 6.25
+[2 / 40] Final mean reward: 3.5
+[8 / 40] Final mean reward: 6.5
+[5 / 40] Final mean reward: 11.0
+[4 / 40] Final mean reward: 7.25
+[1 / 40] Final mean reward: 3.0
+[7 / 40] Final mean reward: 11.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[13 / 40] Final mean reward: 5.25
+[11 / 40] Final mean reward: 4.5
+[15 / 40] Final mean reward: 1.0
+[9 / 40] Final mean reward: 6.75
+[10 / 40] Final mean reward: 4.0
+[14 / 40] Final mean reward: 4.0
+[16 / 40] Final mean reward: 2.25
+[12 / 40] Final mean reward: 8.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 8.25
+[18 / 40] Final mean reward: 0.25
+[22 / 40] Final mean reward: 3.75
+[24 / 40] Final mean reward: 4.0
+[19 / 40] Final mean reward: 1.25
+[23 / 40] Final mean reward: 7.0
+[20 / 40] Final mean reward: 1.25
+[17 / 40] Final mean reward: 1.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 3.5
+[26 / 40] Final mean reward: 5.5
+[25 / 40] Final mean reward: 3.0
+[32 / 40] Final mean reward: 8.25
+[27 / 40] Final mean reward: 4.5
+[31 / 40] Final mean reward: 3.5
+[28 / 40] Final mean reward: 6.5
+[29 / 40] Final mean reward: 9.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 5.5
+[40 / 40] Final mean reward: 4.0
+[35 / 40] Final mean reward: 5.25
+[37 / 40] Final mean reward: 4.25
+[36 / 40] Final mean reward: 3.25
+[39 / 40] Final mean reward: 7.5
+[34 / 40] Final mean reward: 7.25
+[38 / 40] Final mean reward: 3.75
+[CONTROLLER] done with batch
+End of population for generation 5.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 12.5, new run best score: 11.25
+[CONTROLLER] Average score on all of the processes: 5.11875
+
+[CONTROLLER] Creating generation: 6 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 4.25
+[6 / 40] Final mean reward: 3.5
+[7 / 40] Final mean reward: 5.25
+[5 / 40] Final mean reward: 4.25
+[8 / 40] Final mean reward: 3.5
+[4 / 40] Final mean reward: 7.25
+[2 / 40] Final mean reward: 5.5
+[1 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 4.25
+[14 / 40] Final mean reward: 4.5
+[16 / 40] Final mean reward: 6.0
+[13 / 40] Final mean reward: 8.0
+[11 / 40] Final mean reward: 13.5
+[12 / 40] Final mean reward: 3.0
+[15 / 40] Final mean reward: 8.0
+[9 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 4.5
+[21 / 40] Final mean reward: 6.75
+[20 / 40] Final mean reward: 1.0
+[17 / 40] Final mean reward: 4.75
+[24 / 40] Final mean reward: 2.25
+[19 / 40] Final mean reward: 8.25
+[22 / 40] Final mean reward: 6.25
+[23 / 40] Final mean reward: 2.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 6.5
+[29 / 40] Final mean reward: 10.25
+[26 / 40] Final mean reward: 5.75
+[31 / 40] Final mean reward: 3.25
+[27 / 40] Final mean reward: 8.5
+[30 / 40] Final mean reward: 5.0
+[25 / 40] Final mean reward: 11.25
+[28 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 11.5
+[34 / 40] Final mean reward: 2.5
+[33 / 40] Final mean reward: 2.25
+[38 / 40] Final mean reward: 10.25
+[35 / 40] Final mean reward: 5.0
+[39 / 40] Final mean reward: 2.5
+[36 / 40] Final mean reward: 6.0
+[40 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+End of population for generation 6.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 12.5, new run best score: 13.5
+[CONTROLLER] Average score on all of the processes: 6.04375
+
+[CONTROLLER] Creating generation: 7 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 6.0
+[1 / 40] Final mean reward: 4.0
+[7 / 40] Final mean reward: 13.5
+[3 / 40] Final mean reward: 10.0
+[2 / 40] Final mean reward: 6.25
+[6 / 40] Final mean reward: 3.75
+[5 / 40] Final mean reward: 7.75
+[4 / 40] Final mean reward: 8.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 12.25
+[11 / 40] Final mean reward: 9.0
+[15 / 40] Final mean reward: 8.75
+[13 / 40] Final mean reward: 7.75
+[14 / 40] Final mean reward: 10.5
+[9 / 40] Final mean reward: 9.25
+[12 / 40] Final mean reward: 14.25
+[16 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 3.75
+[23 / 40] Final mean reward: 4.75
+[17 / 40] Final mean reward: 6.0
+[22 / 40] Final mean reward: 10.0
+[18 / 40] Final mean reward: 10.0
+[19 / 40] Final mean reward: 13.25
+[24 / 40] Final mean reward: 6.75
+[21 / 40] Final mean reward: 6.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 5.75
+[25 / 40] Final mean reward: 13.75
+[27 / 40] Final mean reward: 14.5
+[26 / 40] Final mean reward: 3.0
+[30 / 40] Final mean reward: 2.5
+[31 / 40] Final mean reward: 6.5
+[32 / 40] Final mean reward: 6.0
+[29 / 40] Final mean reward: 6.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 2.5
+[39 / 40] Final mean reward: 3.75
+[37 / 40] Final mean reward: 18.0
+[35 / 40] Final mean reward: 10.25
+[40 / 40] Final mean reward: 18.0
+[33 / 40] Final mean reward: 4.5
+[36 / 40] Final mean reward: 1.75
+[34 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+End of population for generation 7.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 13.5, new run best score: 18.0
+[CONTROLLER] Average score on all of the processes: 8.0375
+
+[CONTROLLER] Creating generation: 8 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 7.0
+[1 / 40] Final mean reward: 10.5
+[2 / 40] Final mean reward: 13.75
+[3 / 40] Final mean reward: 5.25
+[8 / 40] Final mean reward: 11.25
+[4 / 40] Final mean reward: 6.75
+[6 / 40] Final mean reward: 19.25
+[5 / 40] Final mean reward: 2.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 11.25
+[9 / 40] Final mean reward: 3.25
+[16 / 40] Final mean reward: 5.25
+[10 / 40] Final mean reward: 8.0
+[15 / 40] Final mean reward: 6.0
+[13 / 40] Final mean reward: 17.0
+[12 / 40] Final mean reward: 6.5
+[11 / 40] Final mean reward: 5.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 12.5
+[19 / 40] Final mean reward: 6.25
+[23 / 40] Final mean reward: 9.0
+[17 / 40] Final mean reward: 6.75
+[18 / 40] Final mean reward: 5.25
+[21 / 40] Final mean reward: 7.75
+[24 / 40] Final mean reward: 10.5
+[20 / 40] Final mean reward: 10.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 8.0
+[29 / 40] Final mean reward: 16.0
+[25 / 40] Final mean reward: 12.75
+[31 / 40] Final mean reward: 7.5
+[32 / 40] Final mean reward: 1.75
+[28 / 40] Final mean reward: 3.5
+[26 / 40] Final mean reward: 13.25
+[30 / 40] Final mean reward: 6.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 9.0
+[40 / 40] Final mean reward: 11.0
+[37 / 40] Final mean reward: 12.25
+[39 / 40] Final mean reward: 7.25
+[38 / 40] Final mean reward: 4.75
+[33 / 40] Final mean reward: 34.0
+[36 / 40] Final mean reward: 5.25
+[35 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+End of population for generation 8.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 18.0, new run best score: 34.0
+[CONTROLLER] Average score on all of the processes: 9.125
+
+[CONTROLLER] Creating generation: 9 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 8.0
+[8 / 40] Final mean reward: 12.0
+[3 / 40] Final mean reward: 3.0
+[4 / 40] Final mean reward: 11.0
+[5 / 40] Final mean reward: 6.5
+[7 / 40] Final mean reward: 3.75
+[1 / 40] Final mean reward: 5.5
+[2 / 40] Final mean reward: 10.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 8.0
+[14 / 40] Final mean reward: 3.0
+[9 / 40] Final mean reward: 11.75
+[13 / 40] Final mean reward: 19.0
+[11 / 40] Final mean reward: 9.5
+[10 / 40] Final mean reward: 13.0
+[15 / 40] Final mean reward: 4.75
+[16 / 40] Final mean reward: 2.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 7.5
+[23 / 40] Final mean reward: 9.0
+[17 / 40] Final mean reward: 3.0
+[24 / 40] Final mean reward: 15.0
+[21 / 40] Final mean reward: 7.0
+[18 / 40] Final mean reward: 13.0
+[20 / 40] Final mean reward: 10.25
+[19 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 5.25
+[26 / 40] Final mean reward: 16.25
+[29 / 40] Final mean reward: 9.75
+[31 / 40] Final mean reward: 7.75
+[28 / 40] Final mean reward: 9.0
+[32 / 40] Final mean reward: 12.0
+[30 / 40] Final mean reward: 8.25
+[27 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[40 / 40] Final mean reward: 2.5
+[35 / 40] Final mean reward: 8.75
+[33 / 40] Final mean reward: 6.75
+[39 / 40] Final mean reward: 16.75
+[34 / 40] Final mean reward: 9.25
+[36 / 40] Final mean reward: 8.0
+[37 / 40] Final mean reward: 3.25
+[38 / 40] Final mean reward: 5.0
+[CONTROLLER] done with batch
+End of population for generation 9.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 19.0
+[CONTROLLER] Average score on all of the processes: 8.675
+
+[CONTROLLER] Creating generation: 10 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 9.25
+[5 / 40] Final mean reward: 11.0
+[3 / 40] Final mean reward: 7.0
+[7 / 40] Final mean reward: 10.0
+[4 / 40] Final mean reward: 14.75
+[1 / 40] Final mean reward: 4.5
+[8 / 40] Final mean reward: 8.0
+[2 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 1.0
+[16 / 40] Final mean reward: 8.25
+[10 / 40] Final mean reward: 15.5
+[15 / 40] Final mean reward: 18.25
+[13 / 40] Final mean reward: 11.0
+[14 / 40] Final mean reward: 2.0
+[12 / 40] Final mean reward: 6.0
+[9 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 9.5
+[20 / 40] Final mean reward: 4.5
+[21 / 40] Final mean reward: 10.75
+[24 / 40] Final mean reward: 13.5
+[19 / 40] Final mean reward: 6.5
+[22 / 40] Final mean reward: 26.0
+[17 / 40] Final mean reward: 8.0
+[23 / 40] Final mean reward: 14.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 5.0
+[30 / 40] Final mean reward: 6.25
+[26 / 40] Final mean reward: 10.75
+[28 / 40] Final mean reward: 3.5
+[29 / 40] Final mean reward: 11.5
+[25 / 40] Final mean reward: 3.25
+[32 / 40] Final mean reward: 11.25
+[31 / 40] Final mean reward: 13.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 13.0
+[39 / 40] Final mean reward: 20.75
+[40 / 40] Final mean reward: 6.25
+[35 / 40] Final mean reward: 14.0
+[36 / 40] Final mean reward: 15.0
+[38 / 40] Final mean reward: 13.0
+[33 / 40] Final mean reward: 9.0
+[34 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+End of population for generation 10.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 26.0
+[CONTROLLER] Average score on all of the processes: 10.09375
+
+[CONTROLLER] Creating generation: 11 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 13.0
+[6 / 40] Final mean reward: 6.0
+[5 / 40] Final mean reward: 7.25
+[2 / 40] Final mean reward: 9.0
+[8 / 40] Final mean reward: 8.5
+[4 / 40] Final mean reward: 9.5
+[1 / 40] Final mean reward: 4.25
+[3 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 4.25
+[9 / 40] Final mean reward: 13.75
+[11 / 40] Final mean reward: 4.25
+[16 / 40] Final mean reward: 4.0
+[14 / 40] Final mean reward: 16.75
+[13 / 40] Final mean reward: 9.25
+[12 / 40] Final mean reward: 5.25
+[10 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 9.0
+[18 / 40] Final mean reward: 10.25
+[21 / 40] Final mean reward: 17.5
+[17 / 40] Final mean reward: 5.75
+[19 / 40] Final mean reward: 7.0
+[24 / 40] Final mean reward: 8.5
+[23 / 40] Final mean reward: 7.5
+[22 / 40] Final mean reward: 4.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 8.75
+[30 / 40] Final mean reward: 4.75
+[31 / 40] Final mean reward: 5.25
+[27 / 40] Final mean reward: 7.5
+[29 / 40] Final mean reward: 10.0
+[26 / 40] Final mean reward: 12.5
+[28 / 40] Final mean reward: 11.25
+[25 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 6.0
+[40 / 40] Final mean reward: 17.0
+[39 / 40] Final mean reward: 10.25
+[35 / 40] Final mean reward: 8.25
+[37 / 40] Final mean reward: 3.25
+[36 / 40] Final mean reward: 12.25
+[34 / 40] Final mean reward: 7.75
+[33 / 40] Final mean reward: 14.25
+[CONTROLLER] done with batch
+End of population for generation 11.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 17.5
+[CONTROLLER] Average score on all of the processes: 8.81875
+
+[CONTROLLER] Creating generation: 12 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 6.75
+[2 / 40] Final mean reward: 20.0
+[5 / 40] Final mean reward: 14.75
+[7 / 40] Final mean reward: 7.5
+[4 / 40] Final mean reward: 5.75
+[3 / 40] Final mean reward: 28.75
+[1 / 40] Final mean reward: 11.5
+[8 / 40] Final mean reward: 11.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 15.5
+[15 / 40] Final mean reward: 4.25
+[14 / 40] Final mean reward: 3.0
+[9 / 40] Final mean reward: 6.75
+[10 / 40] Final mean reward: 9.25
+[13 / 40] Final mean reward: 8.25
+[12 / 40] Final mean reward: 11.25
+[11 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 5.25
+[23 / 40] Final mean reward: 7.0
+[17 / 40] Final mean reward: 17.25
+[21 / 40] Final mean reward: 7.0
+[20 / 40] Final mean reward: 9.5
+[19 / 40] Final mean reward: 20.5
+[18 / 40] Final mean reward: 7.5
+[22 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 3.5
+[28 / 40] Final mean reward: 22.25
+[27 / 40] Final mean reward: 10.5
+[30 / 40] Final mean reward: 10.5
+[26 / 40] Final mean reward: 20.75
+[25 / 40] Final mean reward: 5.0
+[29 / 40] Final mean reward: 12.5
+[32 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[35 / 40] Final mean reward: 8.25
+[37 / 40] Final mean reward: 4.5
+[33 / 40] Final mean reward: 9.25
+[39 / 40] Final mean reward: 9.75
+[34 / 40] Final mean reward: 2.25
+[40 / 40] Final mean reward: 4.25
+[38 / 40] Final mean reward: 10.0
+[36 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+End of population for generation 12.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 28.75
+[CONTROLLER] Average score on all of the processes: 9.99375
+
+[CONTROLLER] Creating generation: 13 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 7.75
+[4 / 40] Final mean reward: 6.75
+[5 / 40] Final mean reward: 7.25
+[6 / 40] Final mean reward: 6.0
+[8 / 40] Final mean reward: 1.5
+[7 / 40] Final mean reward: 5.75
+[1 / 40] Final mean reward: 8.5
+[3 / 40] Final mean reward: 6.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[13 / 40] Final mean reward: 12.75
+[12 / 40] Final mean reward: 3.0
+[16 / 40] Final mean reward: 14.0
+[15 / 40] Final mean reward: 10.0
+[14 / 40] Final mean reward: 16.0
+[11 / 40] Final mean reward: 12.0
+[9 / 40] Final mean reward: 17.25
+[10 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 9.25
+[21 / 40] Final mean reward: 12.0
+[17 / 40] Final mean reward: 8.5
+[23 / 40] Final mean reward: 4.5
+[19 / 40] Final mean reward: 11.0
+[18 / 40] Final mean reward: 21.0
+[22 / 40] Final mean reward: 9.0
+[24 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 27.75
+[31 / 40] Final mean reward: 12.5
+[28 / 40] Final mean reward: 7.0
+[26 / 40] Final mean reward: 5.25
+[32 / 40] Final mean reward: 12.25
+[30 / 40] Final mean reward: 22.0
+[27 / 40] Final mean reward: 2.5
+[29 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[40 / 40] Final mean reward: 9.5
+[37 / 40] Final mean reward: 10.5
+[38 / 40] Final mean reward: 6.75
+[33 / 40] Final mean reward: 4.0
+[39 / 40] Final mean reward: 6.0
+[34 / 40] Final mean reward: 6.25
+[36 / 40] Final mean reward: 10.75
+[35 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+End of population for generation 13.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 27.75
+[CONTROLLER] Average score on all of the processes: 9.875
+
+[CONTROLLER] Creating generation: 14 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 11.0
+[6 / 40] Final mean reward: 6.5
+[5 / 40] Final mean reward: 31.0
+[8 / 40] Final mean reward: 10.5
+[3 / 40] Final mean reward: 7.5
+[1 / 40] Final mean reward: 9.25
+[4 / 40] Final mean reward: 9.0
+[2 / 40] Final mean reward: 18.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 0.25
+[9 / 40] Final mean reward: 8.25
+[15 / 40] Final mean reward: 7.25
+[13 / 40] Final mean reward: 3.5
+[10 / 40] Final mean reward: 5.75
+[14 / 40] Final mean reward: 12.75
+[12 / 40] Final mean reward: 7.0
+[11 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 10.25
+[19 / 40] Final mean reward: 10.5
+[21 / 40] Final mean reward: 16.0
+[24 / 40] Final mean reward: 12.0
+[20 / 40] Final mean reward: 10.0
+[17 / 40] Final mean reward: 9.0
+[18 / 40] Final mean reward: 15.25
+[23 / 40] Final mean reward: 13.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 3.75
+[29 / 40] Final mean reward: 13.5
+[25 / 40] Final mean reward: 4.25
+[27 / 40] Final mean reward: 7.25
+[31 / 40] Final mean reward: 8.25
+[32 / 40] Final mean reward: 11.75
+[26 / 40] Final mean reward: 8.25
+[30 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 12.75
+[36 / 40] Final mean reward: 19.5
+[34 / 40] Final mean reward: 14.75
+[38 / 40] Final mean reward: 9.25
+[39 / 40] Final mean reward: 15.5
+[35 / 40] Final mean reward: 13.75
+[40 / 40] Final mean reward: 9.5
+[37 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+End of population for generation 14.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.0
+[CONTROLLER] Average score on all of the processes: 10.575
+
+[CONTROLLER] Creating generation: 15 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 8.75
+[2 / 40] Final mean reward: 9.5
+[6 / 40] Final mean reward: 15.25
+[7 / 40] Final mean reward: 12.0
+[3 / 40] Final mean reward: 16.75
+[8 / 40] Final mean reward: 7.25
+[1 / 40] Final mean reward: 2.25
+[5 / 40] Final mean reward: 17.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 10.5
+[10 / 40] Final mean reward: 16.75
+[16 / 40] Final mean reward: 6.75
+[13 / 40] Final mean reward: 8.0
+[12 / 40] Final mean reward: 9.5
+[9 / 40] Final mean reward: 11.25
+[15 / 40] Final mean reward: 9.5
+[14 / 40] Final mean reward: 10.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 8.75
+[21 / 40] Final mean reward: 6.0
+[18 / 40] Final mean reward: 12.0
+[20 / 40] Final mean reward: 6.75
+[23 / 40] Final mean reward: 8.25
+[22 / 40] Final mean reward: 3.25
+[17 / 40] Final mean reward: 1.5
+[24 / 40] Final mean reward: 0.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 8.0
+[28 / 40] Final mean reward: 12.0
+[31 / 40] Final mean reward: 7.0
+[27 / 40] Final mean reward: 15.5
+[25 / 40] Final mean reward: 3.25
+[30 / 40] Final mean reward: 13.0
+[29 / 40] Final mean reward: 8.75
+[32 / 40] Final mean reward: 14.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 18.0
+[38 / 40] Final mean reward: 15.5
+[34 / 40] Final mean reward: 12.0
+[35 / 40] Final mean reward: 15.5
+[37 / 40] Final mean reward: 11.5
+[33 / 40] Final mean reward: 12.75
+[40 / 40] Final mean reward: 8.75
+[36 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+End of population for generation 15.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 18.0
+[CONTROLLER] Average score on all of the processes: 10.2125
+
+[CONTROLLER] Creating generation: 16 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 12.5
+[3 / 40] Final mean reward: 5.5
+[1 / 40] Final mean reward: 6.5
+[7 / 40] Final mean reward: 8.0
+[6 / 40] Final mean reward: 5.5
+[8 / 40] Final mean reward: 6.75
+[5 / 40] Final mean reward: 9.75
+[4 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 14.75
+[10 / 40] Final mean reward: 15.75
+[9 / 40] Final mean reward: 10.0
+[13 / 40] Final mean reward: 28.5
+[16 / 40] Final mean reward: 14.5
+[15 / 40] Final mean reward: 7.5
+[14 / 40] Final mean reward: 10.0
+[12 / 40] Final mean reward: 10.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 6.0
+[24 / 40] Final mean reward: 15.25
+[22 / 40] Final mean reward: 7.0
+[20 / 40] Final mean reward: 10.0
+[17 / 40] Final mean reward: 7.5
+[23 / 40] Final mean reward: 7.0
+[18 / 40] Final mean reward: 7.0
+[21 / 40] Final mean reward: 5.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 19.25
+[28 / 40] Final mean reward: 19.0
+[30 / 40] Final mean reward: 7.0
+[31 / 40] Final mean reward: 9.0
+[29 / 40] Final mean reward: 6.5
+[26 / 40] Final mean reward: 7.5
+[32 / 40] Final mean reward: 10.25
+[27 / 40] Final mean reward: 10.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[35 / 40] Final mean reward: 22.5
+[33 / 40] Final mean reward: 7.5
+[39 / 40] Final mean reward: 8.0
+[37 / 40] Final mean reward: 6.5
+[38 / 40] Final mean reward: 10.0
+[36 / 40] Final mean reward: 12.0
+[34 / 40] Final mean reward: 13.0
+[40 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+End of population for generation 16.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 28.5
+[CONTROLLER] Average score on all of the processes: 10.79375
+
+[CONTROLLER] Creating generation: 17 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 6.75
+[8 / 40] Final mean reward: 13.75
+[4 / 40] Final mean reward: 7.25
+[6 / 40] Final mean reward: 10.75
+[3 / 40] Final mean reward: 19.25
+[5 / 40] Final mean reward: 17.25
+[1 / 40] Final mean reward: 7.75
+[7 / 40] Final mean reward: 13.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 10.75
+[12 / 40] Final mean reward: 9.25
+[15 / 40] Final mean reward: 8.75
+[13 / 40] Final mean reward: 13.25
+[16 / 40] Final mean reward: 14.25
+[14 / 40] Final mean reward: 4.0
+[10 / 40] Final mean reward: 12.5
+[9 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 11.25
+[22 / 40] Final mean reward: 10.75
+[19 / 40] Final mean reward: 19.25
+[20 / 40] Final mean reward: 7.0
+[18 / 40] Final mean reward: 6.5
+[17 / 40] Final mean reward: 3.75
+[21 / 40] Final mean reward: 9.0
+[23 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 6.25
+[27 / 40] Final mean reward: 4.0
+[32 / 40] Final mean reward: 2.0
+[26 / 40] Final mean reward: 13.75
+[28 / 40] Final mean reward: 11.5
+[25 / 40] Final mean reward: 18.25
+[30 / 40] Final mean reward: 11.0
+[29 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 11.25
+[33 / 40] Final mean reward: 14.0
+[35 / 40] Final mean reward: 16.25
+[37 / 40] Final mean reward: 13.5
+[40 / 40] Final mean reward: 11.25
+[34 / 40] Final mean reward: 7.75
+[38 / 40] Final mean reward: 5.0
+[39 / 40] Final mean reward: 8.5
+[CONTROLLER] done with batch
+End of population for generation 17.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 19.25
+[CONTROLLER] Average score on all of the processes: 10.36875
+
+[CONTROLLER] Creating generation: 18 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 10.5
+[4 / 40] Final mean reward: 15.0
+[2 / 40] Final mean reward: 14.5
+[6 / 40] Final mean reward: 7.25
+[5 / 40] Final mean reward: 5.25
+[7 / 40] Final mean reward: 15.0
+[8 / 40] Final mean reward: 15.25
+[1 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 4.0
+[13 / 40] Final mean reward: 17.25
+[10 / 40] Final mean reward: 8.5
+[12 / 40] Final mean reward: 11.75
+[9 / 40] Final mean reward: 10.25
+[15 / 40] Final mean reward: 11.75
+[14 / 40] Final mean reward: 12.75
+[11 / 40] Final mean reward: 5.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 14.25
+[17 / 40] Final mean reward: 20.0
+[23 / 40] Final mean reward: 16.0
+[22 / 40] Final mean reward: 7.75
+[24 / 40] Final mean reward: 9.0
+[18 / 40] Final mean reward: 8.0
+[21 / 40] Final mean reward: 11.75
+[19 / 40] Final mean reward: 6.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 1.5
+[31 / 40] Final mean reward: 8.5
+[26 / 40] Final mean reward: 8.0
+[25 / 40] Final mean reward: 7.5
+[28 / 40] Final mean reward: 9.0
+[29 / 40] Final mean reward: 4.0
+[27 / 40] Final mean reward: 10.25
+[32 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 11.75
+[38 / 40] Final mean reward: 10.5
+[37 / 40] Final mean reward: 8.0
+[33 / 40] Final mean reward: 13.5
+[36 / 40] Final mean reward: 7.75
+[39 / 40] Final mean reward: 5.75
+[40 / 40] Final mean reward: 6.25
+[35 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+End of population for generation 18.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 20.0
+[CONTROLLER] Average score on all of the processes: 9.85625
+
+[CONTROLLER] Creating generation: 19 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 8.75
+[8 / 40] Final mean reward: 12.25
+[7 / 40] Final mean reward: 14.25
+[1 / 40] Final mean reward: 12.75
+[5 / 40] Final mean reward: 20.75
+[2 / 40] Final mean reward: 13.5
+[3 / 40] Final mean reward: 4.5
+[4 / 40] Final mean reward: 12.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 8.25
+[12 / 40] Final mean reward: 7.75
+[11 / 40] Final mean reward: 5.5
+[13 / 40] Final mean reward: 12.25
+[9 / 40] Final mean reward: 11.5
+[10 / 40] Final mean reward: 18.5
+[14 / 40] Final mean reward: 6.75
+[15 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 17.75
+[17 / 40] Final mean reward: 9.25
+[22 / 40] Final mean reward: 7.75
+[20 / 40] Final mean reward: 11.0
+[18 / 40] Final mean reward: 6.75
+[23 / 40] Final mean reward: 2.25
+[19 / 40] Final mean reward: 10.0
+[21 / 40] Final mean reward: 5.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 4.75
+[27 / 40] Final mean reward: 15.75
+[30 / 40] Final mean reward: 21.0
+[32 / 40] Final mean reward: 12.5
+[28 / 40] Final mean reward: 7.75
+[25 / 40] Final mean reward: 12.5
+[29 / 40] Final mean reward: 7.0
+[31 / 40] Final mean reward: 10.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 5.75
+[36 / 40] Final mean reward: 3.0
+[39 / 40] Final mean reward: 13.0
+[37 / 40] Final mean reward: 9.5
+[38 / 40] Final mean reward: 9.75
+[33 / 40] Final mean reward: 6.25
+[35 / 40] Final mean reward: 6.0
+[40 / 40] Final mean reward: 10.0
+[CONTROLLER] done with batch
+End of population for generation 19.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 21.0
+[CONTROLLER] Average score on all of the processes: 9.9875
+
+[CONTROLLER] Creating generation: 20 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 14.5
+[8 / 40] Final mean reward: 7.0
+[2 / 40] Final mean reward: 23.5
+[7 / 40] Final mean reward: 6.25
+[4 / 40] Final mean reward: 10.0
+[1 / 40] Final mean reward: 2.25
+[5 / 40] Final mean reward: 5.75
+[6 / 40] Final mean reward: 13.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 11.5
+[10 / 40] Final mean reward: 7.0
+[9 / 40] Final mean reward: 8.0
+[15 / 40] Final mean reward: 6.75
+[13 / 40] Final mean reward: 11.25
+[12 / 40] Final mean reward: 17.5
+[16 / 40] Final mean reward: 10.25
+[11 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 20.25
+[19 / 40] Final mean reward: 26.75
+[23 / 40] Final mean reward: 23.5
+[18 / 40] Final mean reward: 10.0
+[21 / 40] Final mean reward: 10.75
+[17 / 40] Final mean reward: 1.75
+[24 / 40] Final mean reward: 4.0
+[20 / 40] Final mean reward: 8.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 5.5
+[30 / 40] Final mean reward: 13.25
+[32 / 40] Final mean reward: 3.0
+[29 / 40] Final mean reward: 22.0
+[27 / 40] Final mean reward: 20.75
+[31 / 40] Final mean reward: 6.25
+[25 / 40] Final mean reward: 5.75
+[28 / 40] Final mean reward: 5.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 6.5
+[34 / 40] Final mean reward: 13.5
+[38 / 40] Final mean reward: 2.0
+[37 / 40] Final mean reward: 21.5
+[33 / 40] Final mean reward: 9.25
+[40 / 40] Final mean reward: 12.0
+[36 / 40] Final mean reward: 13.5
+[35 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+End of population for generation 20.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 26.75
+[CONTROLLER] Average score on all of the processes: 10.9875
+
+[CONTROLLER] Creating generation: 21 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 10.5
+[2 / 40] Final mean reward: 4.75
+[4 / 40] Final mean reward: 12.0
+[6 / 40] Final mean reward: 9.5
+[3 / 40] Final mean reward: 10.75
+[8 / 40] Final mean reward: 12.25
+[1 / 40] Final mean reward: 3.25
+[7 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 4.25
+[13 / 40] Final mean reward: 5.0
+[14 / 40] Final mean reward: 21.25
+[15 / 40] Final mean reward: 9.0
+[11 / 40] Final mean reward: 19.75
+[12 / 40] Final mean reward: 19.75
+[9 / 40] Final mean reward: 12.5
+[16 / 40] Final mean reward: 15.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 7.5
+[17 / 40] Final mean reward: 17.5
+[18 / 40] Final mean reward: 6.75
+[20 / 40] Final mean reward: 10.5
+[23 / 40] Final mean reward: 2.0
+[19 / 40] Final mean reward: 8.0
+[22 / 40] Final mean reward: 26.5
+[24 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 4.5
+[27 / 40] Final mean reward: 18.75
+[25 / 40] Final mean reward: 13.5
+[29 / 40] Final mean reward: 9.5
+[26 / 40] Final mean reward: 13.25
+[28 / 40] Final mean reward: 7.25
+[30 / 40] Final mean reward: 6.25
+[32 / 40] Final mean reward: 11.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 9.75
+[33 / 40] Final mean reward: 19.75
+[37 / 40] Final mean reward: 5.5
+[38 / 40] Final mean reward: 7.25
+[34 / 40] Final mean reward: 2.0
+[40 / 40] Final mean reward: 5.0
+[39 / 40] Final mean reward: 8.25
+[35 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+End of population for generation 21.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 26.5
+[CONTROLLER] Average score on all of the processes: 10.51875
+
+[CONTROLLER] Creating generation: 22 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 10.0
+[6 / 40] Final mean reward: 15.75
+[3 / 40] Final mean reward: 4.5
+[4 / 40] Final mean reward: 3.0
+[7 / 40] Final mean reward: 6.75
+[1 / 40] Final mean reward: 4.25
+[8 / 40] Final mean reward: 17.0
+[5 / 40] Final mean reward: 5.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[13 / 40] Final mean reward: 7.5
+[15 / 40] Final mean reward: 18.5
+[14 / 40] Final mean reward: 1.5
+[11 / 40] Final mean reward: 31.0
+[10 / 40] Final mean reward: 6.0
+[16 / 40] Final mean reward: 7.0
+[9 / 40] Final mean reward: 10.0
+[12 / 40] Final mean reward: 6.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 6.75
+[19 / 40] Final mean reward: 7.5
+[22 / 40] Final mean reward: 4.25
+[23 / 40] Final mean reward: 7.0
+[20 / 40] Final mean reward: 11.5
+[17 / 40] Final mean reward: 14.25
+[18 / 40] Final mean reward: 8.0
+[24 / 40] Final mean reward: 22.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 10.5
+[30 / 40] Final mean reward: 10.25
+[26 / 40] Final mean reward: 10.75
+[25 / 40] Final mean reward: 17.0
+[27 / 40] Final mean reward: 6.25
+[32 / 40] Final mean reward: 2.25
+[31 / 40] Final mean reward: 28.25
+[29 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 11.0
+[38 / 40] Final mean reward: 11.5
+[33 / 40] Final mean reward: 9.0
+[39 / 40] Final mean reward: 4.25
+[35 / 40] Final mean reward: 9.0
+[40 / 40] Final mean reward: 14.0
+[34 / 40] Final mean reward: 9.25
+[37 / 40] Final mean reward: 16.25
+[CONTROLLER] done with batch
+End of population for generation 22.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.0
+[CONTROLLER] Average score on all of the processes: 10.43125
+
+[CONTROLLER] Creating generation: 23 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 27.75
+[5 / 40] Final mean reward: 4.25
+[7 / 40] Final mean reward: 19.5
+[6 / 40] Final mean reward: 6.0
+[1 / 40] Final mean reward: 19.25
+[2 / 40] Final mean reward: 11.0
+[8 / 40] Final mean reward: 5.0
+[3 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 8.75
+[10 / 40] Final mean reward: 20.75
+[14 / 40] Final mean reward: 5.25
+[11 / 40] Final mean reward: 5.75
+[12 / 40] Final mean reward: 9.0
+[15 / 40] Final mean reward: 11.25
+[13 / 40] Final mean reward: 4.5
+[9 / 40] Final mean reward: 16.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 26.75
+[23 / 40] Final mean reward: 10.75
+[19 / 40] Final mean reward: 17.5
+[22 / 40] Final mean reward: 20.75
+[17 / 40] Final mean reward: 6.25
+[21 / 40] Final mean reward: 19.75
+[18 / 40] Final mean reward: 15.75
+[24 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 8.5
+[31 / 40] Final mean reward: 27.0
+[28 / 40] Final mean reward: 15.5
+[32 / 40] Final mean reward: 6.75
+[29 / 40] Final mean reward: 8.75
+[25 / 40] Final mean reward: 20.25
+[30 / 40] Final mean reward: 14.25
+[26 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 7.5
+[40 / 40] Final mean reward: 10.5
+[33 / 40] Final mean reward: 12.25
+[39 / 40] Final mean reward: 12.5
+[35 / 40] Final mean reward: 6.0
+[37 / 40] Final mean reward: 10.5
+[38 / 40] Final mean reward: 9.0
+[34 / 40] Final mean reward: 8.25
+[CONTROLLER] done with batch
+End of population for generation 23.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 27.75
+[CONTROLLER] Average score on all of the processes: 12.2625
+
+[CONTROLLER] Creating generation: 24 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 25.0
+[8 / 40] Final mean reward: 6.0
+[7 / 40] Final mean reward: 20.75
+[5 / 40] Final mean reward: 6.25
+[2 / 40] Final mean reward: 9.75
+[1 / 40] Final mean reward: 14.75
+[6 / 40] Final mean reward: 7.25
+[3 / 40] Final mean reward: 8.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 4.25
+[11 / 40] Final mean reward: 10.75
+[15 / 40] Final mean reward: 10.75
+[13 / 40] Final mean reward: 7.5
+[16 / 40] Final mean reward: 7.0
+[12 / 40] Final mean reward: 13.75
+[14 / 40] Final mean reward: 7.0
+[10 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 14.25
+[20 / 40] Final mean reward: 6.75
+[22 / 40] Final mean reward: 12.5
+[18 / 40] Final mean reward: 10.75
+[19 / 40] Final mean reward: 21.5
+[23 / 40] Final mean reward: 8.0
+[17 / 40] Final mean reward: 11.5
+[21 / 40] Final mean reward: 25.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 3.5
+[32 / 40] Final mean reward: 16.75
+[30 / 40] Final mean reward: 19.5
+[27 / 40] Final mean reward: 10.25
+[25 / 40] Final mean reward: 9.0
+[29 / 40] Final mean reward: 25.0
+[26 / 40] Final mean reward: 20.75
+[31 / 40] Final mean reward: 17.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 15.25
+[40 / 40] Final mean reward: 10.0
+[39 / 40] Final mean reward: 8.0
+[33 / 40] Final mean reward: 17.0
+[35 / 40] Final mean reward: 6.25
+[36 / 40] Final mean reward: 21.0
+[34 / 40] Final mean reward: 11.75
+[37 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+End of population for generation 24.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 25.0
+[CONTROLLER] Average score on all of the processes: 12.7
+
+[CONTROLLER] Creating generation: 25 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 13.75
+[1 / 40] Final mean reward: 9.0
+[4 / 40] Final mean reward: 20.5
+[2 / 40] Final mean reward: 6.75
+[7 / 40] Final mean reward: 12.0
+[3 / 40] Final mean reward: 0.75
+[8 / 40] Final mean reward: 9.25
+[5 / 40] Final mean reward: 17.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 5.25
+[13 / 40] Final mean reward: 21.25
+[10 / 40] Final mean reward: 18.0
+[15 / 40] Final mean reward: 12.25
+[16 / 40] Final mean reward: 13.25
+[12 / 40] Final mean reward: 8.75
+[14 / 40] Final mean reward: 15.75
+[9 / 40] Final mean reward: 6.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 11.25
+[17 / 40] Final mean reward: 11.0
+[21 / 40] Final mean reward: 8.0
+[24 / 40] Final mean reward: 12.25
+[22 / 40] Final mean reward: 11.0
+[18 / 40] Final mean reward: 14.5
+[20 / 40] Final mean reward: 11.5
+[23 / 40] Final mean reward: 13.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 9.0
+[26 / 40] Final mean reward: 12.5
+[31 / 40] Final mean reward: 7.5
+[27 / 40] Final mean reward: 8.5
+[25 / 40] Final mean reward: 10.75
+[32 / 40] Final mean reward: 4.25
+[28 / 40] Final mean reward: 10.75
+[29 / 40] Final mean reward: 0.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 13.25
+[36 / 40] Final mean reward: 7.0
+[39 / 40] Final mean reward: 13.75
+[38 / 40] Final mean reward: 5.5
+[40 / 40] Final mean reward: 4.25
+[34 / 40] Final mean reward: 15.25
+[37 / 40] Final mean reward: 11.75
+[35 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+End of population for generation 25.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 21.25
+[CONTROLLER] Average score on all of the processes: 10.73125
+
+[CONTROLLER] Creating generation: 26 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 8.25
+[4 / 40] Final mean reward: 9.75
+[7 / 40] Final mean reward: 6.25
+[8 / 40] Final mean reward: 19.75
+[2 / 40] Final mean reward: 13.75
+[3 / 40] Final mean reward: 9.5
+[1 / 40] Final mean reward: 4.5
+[6 / 40] Final mean reward: 19.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 19.5
+[15 / 40] Final mean reward: 8.25
+[14 / 40] Final mean reward: 6.25
+[9 / 40] Final mean reward: 6.25
+[13 / 40] Final mean reward: 13.5
+[10 / 40] Final mean reward: 7.0
+[16 / 40] Final mean reward: 23.75
+[12 / 40] Final mean reward: 17.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 5.5
+[20 / 40] Final mean reward: 11.5
+[22 / 40] Final mean reward: 6.25
+[18 / 40] Final mean reward: 14.5
+[23 / 40] Final mean reward: 28.25
+[24 / 40] Final mean reward: 22.75
+[21 / 40] Final mean reward: 10.0
+[17 / 40] Final mean reward: 5.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 16.0
+[28 / 40] Final mean reward: 16.0
+[27 / 40] Final mean reward: 10.5
+[30 / 40] Final mean reward: 23.5
+[31 / 40] Final mean reward: 13.75
+[29 / 40] Final mean reward: 7.0
+[26 / 40] Final mean reward: 12.0
+[32 / 40] Final mean reward: 9.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 16.5
+[39 / 40] Final mean reward: 19.25
+[35 / 40] Final mean reward: 4.75
+[36 / 40] Final mean reward: 8.5
+[37 / 40] Final mean reward: 8.25
+[38 / 40] Final mean reward: 26.25
+[40 / 40] Final mean reward: 9.5
+[33 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+End of population for generation 26.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 28.25
+[CONTROLLER] Average score on all of the processes: 12.625
+
+[CONTROLLER] Creating generation: 27 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 8.75
+[1 / 40] Final mean reward: 6.75
+[8 / 40] Final mean reward: 14.25
+[4 / 40] Final mean reward: 3.75
+[6 / 40] Final mean reward: 18.0
+[5 / 40] Final mean reward: 4.75
+[7 / 40] Final mean reward: 14.25
+[3 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 31.75
+[10 / 40] Final mean reward: 8.25
+[9 / 40] Final mean reward: 30.0
+[11 / 40] Final mean reward: 20.5
+[13 / 40] Final mean reward: 5.0
+[12 / 40] Final mean reward: 11.5
+[15 / 40] Final mean reward: 6.75
+[14 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[17 / 40] Final mean reward: 14.75
+[20 / 40] Final mean reward: 12.75
+[18 / 40] Final mean reward: 20.75
+[23 / 40] Final mean reward: 9.0
+[21 / 40] Final mean reward: 11.25
+[19 / 40] Final mean reward: 7.25
+[22 / 40] Final mean reward: 21.5
+[24 / 40] Final mean reward: 19.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 9.5
+[31 / 40] Final mean reward: 6.75
+[27 / 40] Final mean reward: 6.25
+[26 / 40] Final mean reward: 7.75
+[29 / 40] Final mean reward: 11.5
+[30 / 40] Final mean reward: 3.75
+[25 / 40] Final mean reward: 12.0
+[32 / 40] Final mean reward: 16.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 16.0
+[36 / 40] Final mean reward: 18.0
+[39 / 40] Final mean reward: 0.0
+[40 / 40] Final mean reward: 6.25
+[34 / 40] Final mean reward: 15.5
+[35 / 40] Final mean reward: 7.5
+[38 / 40] Final mean reward: 2.25
+[33 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+End of population for generation 27.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.75
+[CONTROLLER] Average score on all of the processes: 11.825
+
+[CONTROLLER] Creating generation: 28 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 21.25
+[6 / 40] Final mean reward: 15.0
+[8 / 40] Final mean reward: 13.5
+[5 / 40] Final mean reward: 4.5
+[1 / 40] Final mean reward: 8.25
+[4 / 40] Final mean reward: 19.25
+[2 / 40] Final mean reward: 13.5
+[3 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 6.5
+[15 / 40] Final mean reward: 19.5
+[11 / 40] Final mean reward: 16.75
+[9 / 40] Final mean reward: 26.25
+[16 / 40] Final mean reward: 12.75
+[12 / 40] Final mean reward: 13.25
+[13 / 40] Final mean reward: 6.0
+[10 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 10.5
+[19 / 40] Final mean reward: 16.25
+[22 / 40] Final mean reward: 14.5
+[18 / 40] Final mean reward: 15.5
+[24 / 40] Final mean reward: 17.75
+[20 / 40] Final mean reward: 17.0
+[17 / 40] Final mean reward: 8.25
+[23 / 40] Final mean reward: 12.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 6.0
+[26 / 40] Final mean reward: 8.75
+[32 / 40] Final mean reward: 10.0
+[31 / 40] Final mean reward: 13.25
+[30 / 40] Final mean reward: 10.0
+[29 / 40] Final mean reward: 21.25
+[28 / 40] Final mean reward: 8.0
+[27 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 14.5
+[34 / 40] Final mean reward: 17.0
+[39 / 40] Final mean reward: 17.0
+[37 / 40] Final mean reward: 8.75
+[40 / 40] Final mean reward: 21.25
+[33 / 40] Final mean reward: 4.0
+[36 / 40] Final mean reward: 21.25
+[35 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+End of population for generation 28.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 26.25
+[CONTROLLER] Average score on all of the processes: 12.8375
+
+[CONTROLLER] Creating generation: 29 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 13.5
+[4 / 40] Final mean reward: 6.75
+[3 / 40] Final mean reward: 15.0
+[6 / 40] Final mean reward: 13.0
+[1 / 40] Final mean reward: 10.0
+[8 / 40] Final mean reward: 0.5
+[5 / 40] Final mean reward: 11.0
+[7 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 7.25
+[15 / 40] Final mean reward: 6.5
+[14 / 40] Final mean reward: 26.0
+[13 / 40] Final mean reward: 8.0
+[10 / 40] Final mean reward: 18.25
+[16 / 40] Final mean reward: 12.0
+[11 / 40] Final mean reward: 18.75
+[12 / 40] Final mean reward: 13.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 5.75
+[17 / 40] Final mean reward: 15.25
+[23 / 40] Final mean reward: 9.75
+[24 / 40] Final mean reward: 19.25
+[20 / 40] Final mean reward: 4.5
+[19 / 40] Final mean reward: 22.5
+[22 / 40] Final mean reward: 9.5
+[18 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 13.5
+[29 / 40] Final mean reward: 16.75
+[31 / 40] Final mean reward: 10.0
+[30 / 40] Final mean reward: 9.5
+[28 / 40] Final mean reward: 25.75
+[32 / 40] Final mean reward: 13.0
+[25 / 40] Final mean reward: 6.5
+[26 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 9.75
+[36 / 40] Final mean reward: 2.25
+[40 / 40] Final mean reward: 17.25
+[38 / 40] Final mean reward: 9.75
+[35 / 40] Final mean reward: 24.5
+[34 / 40] Final mean reward: 10.5
+[37 / 40] Final mean reward: 15.0
+[33 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+End of population for generation 29.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 26.0
+[CONTROLLER] Average score on all of the processes: 12.0625
+
+[CONTROLLER] Creating generation: 30 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 26.5
+[4 / 40] Final mean reward: 1.25
+[1 / 40] Final mean reward: 10.5
+[6 / 40] Final mean reward: 7.25
+[3 / 40] Final mean reward: 13.25
+[8 / 40] Final mean reward: 16.75
+[5 / 40] Final mean reward: 19.0
+[7 / 40] Final mean reward: 3.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 22.25
+[12 / 40] Final mean reward: 25.75
+[16 / 40] Final mean reward: 15.5
+[13 / 40] Final mean reward: 21.75
+[11 / 40] Final mean reward: 10.75
+[9 / 40] Final mean reward: 14.25
+[15 / 40] Final mean reward: 5.75
+[14 / 40] Final mean reward: 16.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 18.5
+[24 / 40] Final mean reward: 14.0
+[20 / 40] Final mean reward: 22.25
+[17 / 40] Final mean reward: 31.5
+[21 / 40] Final mean reward: 2.75
+[23 / 40] Final mean reward: 18.5
+[22 / 40] Final mean reward: 23.75
+[18 / 40] Final mean reward: 2.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 8.25
+[27 / 40] Final mean reward: 11.0
+[29 / 40] Final mean reward: 11.75
+[25 / 40] Final mean reward: 22.75
+[30 / 40] Final mean reward: 9.0
+[28 / 40] Final mean reward: 12.25
+[31 / 40] Final mean reward: 11.5
+[32 / 40] Final mean reward: 5.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 21.25
+[34 / 40] Final mean reward: 4.25
+[33 / 40] Final mean reward: 5.5
+[35 / 40] Final mean reward: 7.0
+[36 / 40] Final mean reward: 6.5
+[37 / 40] Final mean reward: 27.25
+[40 / 40] Final mean reward: 10.0
+[39 / 40] Final mean reward: 14.75
+[CONTROLLER] done with batch
+End of population for generation 30.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.5
+[CONTROLLER] Average score on all of the processes: 13.775
+
+[CONTROLLER] Creating generation: 31 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 14.5
+[5 / 40] Final mean reward: 2.0
+[6 / 40] Final mean reward: 21.0
+[3 / 40] Final mean reward: 8.75
+[4 / 40] Final mean reward: 9.0
+[7 / 40] Final mean reward: 9.75
+[2 / 40] Final mean reward: 24.75
+[1 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 6.0
+[11 / 40] Final mean reward: 17.5
+[9 / 40] Final mean reward: 27.25
+[13 / 40] Final mean reward: 6.75
+[15 / 40] Final mean reward: 8.25
+[14 / 40] Final mean reward: 5.75
+[16 / 40] Final mean reward: 13.75
+[10 / 40] Final mean reward: 4.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 15.5
+[17 / 40] Final mean reward: 15.75
+[24 / 40] Final mean reward: 20.0
+[18 / 40] Final mean reward: 26.5
+[23 / 40] Final mean reward: 24.25
+[19 / 40] Final mean reward: 4.5
+[20 / 40] Final mean reward: 7.0
+[21 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 9.5
+[31 / 40] Final mean reward: 5.5
+[32 / 40] Final mean reward: 24.0
+[29 / 40] Final mean reward: 11.0
+[26 / 40] Final mean reward: 4.5
+[27 / 40] Final mean reward: 20.0
+[30 / 40] Final mean reward: 24.75
+[25 / 40] Final mean reward: 18.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 4.0
+[37 / 40] Final mean reward: 15.75
+[39 / 40] Final mean reward: 8.5
+[35 / 40] Final mean reward: 5.5
+[36 / 40] Final mean reward: 21.0
+[40 / 40] Final mean reward: 8.75
+[38 / 40] Final mean reward: 11.25
+[34 / 40] Final mean reward: 10.0
+[CONTROLLER] done with batch
+End of population for generation 31.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 27.25
+[CONTROLLER] Average score on all of the processes: 12.9
+
+[CONTROLLER] Creating generation: 32 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 6.5
+[8 / 40] Final mean reward: 15.25
+[5 / 40] Final mean reward: 11.75
+[4 / 40] Final mean reward: 20.0
+[2 / 40] Final mean reward: 9.25
+[1 / 40] Final mean reward: 9.75
+[3 / 40] Final mean reward: 30.25
+[7 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 9.75
+[10 / 40] Final mean reward: 17.0
+[9 / 40] Final mean reward: 8.25
+[12 / 40] Final mean reward: 2.5
+[15 / 40] Final mean reward: 24.5
+[11 / 40] Final mean reward: 7.0
+[14 / 40] Final mean reward: 19.5
+[13 / 40] Final mean reward: 16.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 5.25
+[19 / 40] Final mean reward: 9.25
+[23 / 40] Final mean reward: 13.5
+[22 / 40] Final mean reward: 7.5
+[18 / 40] Final mean reward: 22.0
+[20 / 40] Final mean reward: 22.75
+[21 / 40] Final mean reward: 10.5
+[17 / 40] Final mean reward: 5.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 28.5
+[31 / 40] Final mean reward: 32.75
+[27 / 40] Final mean reward: 18.0
+[28 / 40] Final mean reward: 7.25
+[30 / 40] Final mean reward: 20.5
+[26 / 40] Final mean reward: 5.25
+[29 / 40] Final mean reward: 4.25
+[25 / 40] Final mean reward: 16.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 10.75
+[40 / 40] Final mean reward: 14.25
+[33 / 40] Final mean reward: 21.0
+[36 / 40] Final mean reward: 18.25
+[35 / 40] Final mean reward: 11.0
+[37 / 40] Final mean reward: 17.75
+[34 / 40] Final mean reward: 11.75
+[39 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+End of population for generation 32.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 32.75
+[CONTROLLER] Average score on all of the processes: 14.06875
+
+[CONTROLLER] Creating generation: 33 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 19.75
+[4 / 40] Final mean reward: 20.25
+[6 / 40] Final mean reward: 3.5
+[5 / 40] Final mean reward: 11.25
+[7 / 40] Final mean reward: 9.5
+[3 / 40] Final mean reward: 10.75
+[1 / 40] Final mean reward: 9.75
+[2 / 40] Final mean reward: 16.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 4.5
+[16 / 40] Final mean reward: 18.5
+[13 / 40] Final mean reward: 13.5
+[12 / 40] Final mean reward: 27.25
+[9 / 40] Final mean reward: 13.25
+[11 / 40] Final mean reward: 21.75
+[10 / 40] Final mean reward: 20.0
+[14 / 40] Final mean reward: 13.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 10.25
+[20 / 40] Final mean reward: 1.75
+[19 / 40] Final mean reward: 11.75
+[18 / 40] Final mean reward: 3.75
+[22 / 40] Final mean reward: 7.0
+[21 / 40] Final mean reward: 12.75
+[23 / 40] Final mean reward: 6.25
+[17 / 40] Final mean reward: 20.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 23.0
+[31 / 40] Final mean reward: 21.5
+[27 / 40] Final mean reward: 8.5
+[28 / 40] Final mean reward: 16.25
+[29 / 40] Final mean reward: 16.75
+[25 / 40] Final mean reward: 17.5
+[32 / 40] Final mean reward: 16.75
+[26 / 40] Final mean reward: 15.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 26.25
+[34 / 40] Final mean reward: 14.75
+[35 / 40] Final mean reward: 15.5
+[40 / 40] Final mean reward: 20.25
+[33 / 40] Final mean reward: 7.0
+[38 / 40] Final mean reward: 23.0
+[36 / 40] Final mean reward: 31.25
+[39 / 40] Final mean reward: 3.75
+[CONTROLLER] done with batch
+End of population for generation 33.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.25
+[CONTROLLER] Average score on all of the processes: 14.625
+
+[CONTROLLER] Creating generation: 34 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 17.0
+[7 / 40] Final mean reward: 5.75
+[6 / 40] Final mean reward: 9.5
+[2 / 40] Final mean reward: 5.75
+[8 / 40] Final mean reward: 23.75
+[4 / 40] Final mean reward: 6.75
+[3 / 40] Final mean reward: 22.75
+[1 / 40] Final mean reward: 5.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 21.25
+[15 / 40] Final mean reward: 6.25
+[16 / 40] Final mean reward: 19.25
+[13 / 40] Final mean reward: 6.5
+[9 / 40] Final mean reward: 24.75
+[12 / 40] Final mean reward: 14.75
+[10 / 40] Final mean reward: 23.0
+[11 / 40] Final mean reward: 24.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 27.25
+[19 / 40] Final mean reward: 15.5
+[23 / 40] Final mean reward: 25.5
+[24 / 40] Final mean reward: 12.25
+[18 / 40] Final mean reward: 15.5
+[20 / 40] Final mean reward: 31.75
+[22 / 40] Final mean reward: 8.5
+[17 / 40] Final mean reward: 13.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 12.75
+[32 / 40] Final mean reward: 19.5
+[31 / 40] Final mean reward: 5.75
+[29 / 40] Final mean reward: 11.5
+[28 / 40] Final mean reward: 12.25
+[26 / 40] Final mean reward: 18.0
+[27 / 40] Final mean reward: 9.75
+[25 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[35 / 40] Final mean reward: 10.25
+[36 / 40] Final mean reward: 7.75
+[40 / 40] Final mean reward: 17.0
+[38 / 40] Final mean reward: 21.75
+[34 / 40] Final mean reward: 8.0
+[37 / 40] Final mean reward: 7.25
+[33 / 40] Final mean reward: 18.75
+[39 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+End of population for generation 34.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.75
+[CONTROLLER] Average score on all of the processes: 14.54375
+
+[CONTROLLER] Creating generation: 35 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 8.25
+[2 / 40] Final mean reward: 18.0
+[7 / 40] Final mean reward: 17.75
+[3 / 40] Final mean reward: 12.5
+[8 / 40] Final mean reward: 10.5
+[4 / 40] Final mean reward: 22.5
+[6 / 40] Final mean reward: 13.5
+[1 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 13.75
+[15 / 40] Final mean reward: 4.75
+[16 / 40] Final mean reward: 10.5
+[11 / 40] Final mean reward: 7.5
+[13 / 40] Final mean reward: 7.75
+[10 / 40] Final mean reward: 4.5
+[12 / 40] Final mean reward: 16.5
+[9 / 40] Final mean reward: 24.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 25.5
+[19 / 40] Final mean reward: 18.5
+[22 / 40] Final mean reward: 1.75
+[17 / 40] Final mean reward: 11.25
+[23 / 40] Final mean reward: 10.5
+[24 / 40] Final mean reward: 16.5
+[20 / 40] Final mean reward: 33.25
+[21 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 25.5
+[27 / 40] Final mean reward: 9.75
+[31 / 40] Final mean reward: 22.75
+[32 / 40] Final mean reward: 6.75
+[30 / 40] Final mean reward: 7.75
+[28 / 40] Final mean reward: 13.5
+[29 / 40] Final mean reward: 24.25
+[26 / 40] Final mean reward: 24.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 23.5
+[33 / 40] Final mean reward: 6.0
+[39 / 40] Final mean reward: 18.25
+[37 / 40] Final mean reward: 24.25
+[38 / 40] Final mean reward: 18.5
+[35 / 40] Final mean reward: 6.75
+[36 / 40] Final mean reward: 11.0
+[40 / 40] Final mean reward: 22.5
+[CONTROLLER] done with batch
+End of population for generation 35.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 33.25
+[CONTROLLER] Average score on all of the processes: 14.81875
+
+[CONTROLLER] Creating generation: 36 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 8.25
+[6 / 40] Final mean reward: 15.75
+[1 / 40] Final mean reward: 17.25
+[5 / 40] Final mean reward: 23.25
+[3 / 40] Final mean reward: 20.5
+[8 / 40] Final mean reward: 10.0
+[7 / 40] Final mean reward: 7.75
+[4 / 40] Final mean reward: 24.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 9.0
+[13 / 40] Final mean reward: 10.0
+[14 / 40] Final mean reward: 25.0
+[10 / 40] Final mean reward: 5.5
+[11 / 40] Final mean reward: 4.75
+[12 / 40] Final mean reward: 10.5
+[9 / 40] Final mean reward: 18.75
+[16 / 40] Final mean reward: 4.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 16.0
+[23 / 40] Final mean reward: 8.0
+[18 / 40] Final mean reward: 31.0
+[21 / 40] Final mean reward: 10.25
+[20 / 40] Final mean reward: 20.75
+[19 / 40] Final mean reward: 8.5
+[17 / 40] Final mean reward: 6.75
+[22 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 8.5
+[31 / 40] Final mean reward: 21.5
+[30 / 40] Final mean reward: 22.25
+[32 / 40] Final mean reward: 4.25
+[26 / 40] Final mean reward: 10.25
+[29 / 40] Final mean reward: 26.5
+[28 / 40] Final mean reward: 25.75
+[27 / 40] Final mean reward: 11.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 11.75
+[36 / 40] Final mean reward: 6.0
+[40 / 40] Final mean reward: 10.25
+[37 / 40] Final mean reward: 24.5
+[33 / 40] Final mean reward: 6.25
+[38 / 40] Final mean reward: 23.75
+[34 / 40] Final mean reward: 20.0
+[35 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+End of population for generation 36.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 31.0
+[CONTROLLER] Average score on all of the processes: 14.2625
+
+[CONTROLLER] Creating generation: 37 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 10.25
+[1 / 40] Final mean reward: 9.5
+[7 / 40] Final mean reward: 22.0
+[2 / 40] Final mean reward: 9.25
+[4 / 40] Final mean reward: 6.75
+[3 / 40] Final mean reward: 17.0
+[5 / 40] Final mean reward: 4.5
+[8 / 40] Final mean reward: 16.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 18.0
+[10 / 40] Final mean reward: 10.0
+[11 / 40] Final mean reward: 14.25
+[13 / 40] Final mean reward: 22.5
+[14 / 40] Final mean reward: 8.25
+[16 / 40] Final mean reward: 17.5
+[15 / 40] Final mean reward: 8.5
+[12 / 40] Final mean reward: 14.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 21.0
+[24 / 40] Final mean reward: 17.75
+[20 / 40] Final mean reward: 15.75
+[17 / 40] Final mean reward: 7.25
+[21 / 40] Final mean reward: 22.25
+[19 / 40] Final mean reward: 16.0
+[23 / 40] Final mean reward: 14.25
+[18 / 40] Final mean reward: 17.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 12.75
+[28 / 40] Final mean reward: 20.0
+[31 / 40] Final mean reward: 6.0
+[29 / 40] Final mean reward: 23.0
+[27 / 40] Final mean reward: 25.75
+[32 / 40] Final mean reward: 4.25
+[25 / 40] Final mean reward: 21.25
+[30 / 40] Final mean reward: 23.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 11.5
+[38 / 40] Final mean reward: 21.75
+[40 / 40] Final mean reward: 15.75
+[33 / 40] Final mean reward: 18.5
+[36 / 40] Final mean reward: 12.5
+[37 / 40] Final mean reward: 28.75
+[39 / 40] Final mean reward: 24.0
+[35 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+End of population for generation 37.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 28.75
+[CONTROLLER] Average score on all of the processes: 15.43125
+
+[CONTROLLER] Creating generation: 38 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 24.75
+[5 / 40] Final mean reward: 22.5
+[7 / 40] Final mean reward: 35.25
+[3 / 40] Final mean reward: 9.5
+[6 / 40] Final mean reward: 18.0
+[4 / 40] Final mean reward: 5.0
+[8 / 40] Final mean reward: 24.0
+[1 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 20.75
+[15 / 40] Final mean reward: 11.25
+[9 / 40] Final mean reward: 5.25
+[11 / 40] Final mean reward: 21.5
+[16 / 40] Final mean reward: 21.5
+[13 / 40] Final mean reward: 11.75
+[10 / 40] Final mean reward: 6.5
+[12 / 40] Final mean reward: 17.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 8.75
+[22 / 40] Final mean reward: 11.75
+[23 / 40] Final mean reward: 24.5
+[20 / 40] Final mean reward: 7.25
+[19 / 40] Final mean reward: 10.0
+[24 / 40] Final mean reward: 11.5
+[17 / 40] Final mean reward: 11.75
+[18 / 40] Final mean reward: 22.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 21.75
+[25 / 40] Final mean reward: 7.0
+[31 / 40] Final mean reward: 9.5
+[29 / 40] Final mean reward: 15.75
+[28 / 40] Final mean reward: 21.5
+[32 / 40] Final mean reward: 4.5
+[27 / 40] Final mean reward: 25.5
+[30 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[40 / 40] Final mean reward: 24.5
+[37 / 40] Final mean reward: 17.0
+[34 / 40] Final mean reward: 20.5
+[33 / 40] Final mean reward: 12.5
+[38 / 40] Final mean reward: 13.0
+[35 / 40] Final mean reward: 5.25
+[39 / 40] Final mean reward: 14.25
+[36 / 40] Final mean reward: 18.5
+[CONTROLLER] done with batch
+End of population for generation 38.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 34.0, new run best score: 35.25
+[CONTROLLER] Average score on all of the processes: 15.25625
+
+[CONTROLLER] Creating generation: 39 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 13.0
+[6 / 40] Final mean reward: 5.25
+[3 / 40] Final mean reward: 25.75
+[4 / 40] Final mean reward: 18.0
+[7 / 40] Final mean reward: 26.0
+[8 / 40] Final mean reward: 14.25
+[5 / 40] Final mean reward: 17.75
+[1 / 40] Final mean reward: 8.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 2.75
+[16 / 40] Final mean reward: 13.25
+[15 / 40] Final mean reward: 12.75
+[13 / 40] Final mean reward: 17.5
+[14 / 40] Final mean reward: 22.5
+[9 / 40] Final mean reward: 17.0
+[11 / 40] Final mean reward: 21.5
+[12 / 40] Final mean reward: 19.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 14.25
+[21 / 40] Final mean reward: 14.25
+[17 / 40] Final mean reward: 13.75
+[22 / 40] Final mean reward: 23.5
+[24 / 40] Final mean reward: 21.0
+[19 / 40] Final mean reward: 7.75
+[20 / 40] Final mean reward: 19.25
+[18 / 40] Final mean reward: 22.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 11.75
+[31 / 40] Final mean reward: 7.5
+[29 / 40] Final mean reward: 4.0
+[28 / 40] Final mean reward: 15.0
+[30 / 40] Final mean reward: 9.25
+[25 / 40] Final mean reward: 27.5
+[26 / 40] Final mean reward: 23.25
+[32 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 12.25
+[38 / 40] Final mean reward: 21.5
+[34 / 40] Final mean reward: 12.5
+[36 / 40] Final mean reward: 32.25
+[40 / 40] Final mean reward: 21.75
+[33 / 40] Final mean reward: 7.25
+[37 / 40] Final mean reward: 16.75
+[35 / 40] Final mean reward: 20.75
+[CONTROLLER] done with batch
+End of population for generation 39.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 32.25
+[CONTROLLER] Average score on all of the processes: 16.1125
+
+[CONTROLLER] Creating generation: 40 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 8.25
+[7 / 40] Final mean reward: 10.75
+[5 / 40] Final mean reward: 15.75
+[2 / 40] Final mean reward: 21.0
+[4 / 40] Final mean reward: 15.75
+[8 / 40] Final mean reward: 23.0
+[1 / 40] Final mean reward: 9.25
+[3 / 40] Final mean reward: 22.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 5.75
+[14 / 40] Final mean reward: 21.75
+[11 / 40] Final mean reward: 19.25
+[16 / 40] Final mean reward: 19.75
+[15 / 40] Final mean reward: 18.75
+[10 / 40] Final mean reward: 8.0
+[13 / 40] Final mean reward: 8.25
+[9 / 40] Final mean reward: 22.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 15.5
+[21 / 40] Final mean reward: 10.75
+[18 / 40] Final mean reward: 26.0
+[20 / 40] Final mean reward: 4.75
+[24 / 40] Final mean reward: 9.0
+[23 / 40] Final mean reward: 12.75
+[22 / 40] Final mean reward: 18.25
+[17 / 40] Final mean reward: 4.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 21.25
+[30 / 40] Final mean reward: 7.25
+[26 / 40] Final mean reward: 15.0
+[28 / 40] Final mean reward: 8.5
+[29 / 40] Final mean reward: 20.25
+[32 / 40] Final mean reward: 21.0
+[25 / 40] Final mean reward: 15.0
+[31 / 40] Final mean reward: 6.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 16.75
+[36 / 40] Final mean reward: 22.75
+[39 / 40] Final mean reward: 17.75
+[35 / 40] Final mean reward: 20.75
+[40 / 40] Final mean reward: 20.5
+[37 / 40] Final mean reward: 7.5
+[33 / 40] Final mean reward: 21.75
+[38 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+End of population for generation 40.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 26.0
+[CONTROLLER] Average score on all of the processes: 15.10625
+
+[CONTROLLER] Creating generation: 41 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 23.0
+[2 / 40] Final mean reward: 10.5
+[8 / 40] Final mean reward: 25.5
+[4 / 40] Final mean reward: 15.25
+[3 / 40] Final mean reward: 17.0
+[6 / 40] Final mean reward: 19.75
+[7 / 40] Final mean reward: 23.5
+[1 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 7.75
+[13 / 40] Final mean reward: 24.5
+[14 / 40] Final mean reward: 15.5
+[12 / 40] Final mean reward: 9.25
+[15 / 40] Final mean reward: 19.5
+[16 / 40] Final mean reward: 21.25
+[10 / 40] Final mean reward: 24.5
+[9 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 24.25
+[17 / 40] Final mean reward: 15.25
+[18 / 40] Final mean reward: 11.0
+[20 / 40] Final mean reward: 14.75
+[19 / 40] Final mean reward: 26.5
+[24 / 40] Final mean reward: 15.5
+[21 / 40] Final mean reward: 15.5
+[23 / 40] Final mean reward: 22.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 14.75
+[32 / 40] Final mean reward: 19.75
+[31 / 40] Final mean reward: 21.25
+[26 / 40] Final mean reward: 5.75
+[29 / 40] Final mean reward: 7.75
+[30 / 40] Final mean reward: 18.25
+[25 / 40] Final mean reward: 28.5
+[27 / 40] Final mean reward: 26.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 14.5
+[34 / 40] Final mean reward: 11.5
+[33 / 40] Final mean reward: 20.0
+[35 / 40] Final mean reward: 6.5
+[40 / 40] Final mean reward: 17.5
+[38 / 40] Final mean reward: 17.0
+[37 / 40] Final mean reward: 16.5
+[39 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+End of population for generation 41.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 28.5
+[CONTROLLER] Average score on all of the processes: 17.075
+
+[CONTROLLER] Creating generation: 42 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 14.25
+[1 / 40] Final mean reward: 6.75
+[6 / 40] Final mean reward: 28.0
+[3 / 40] Final mean reward: 12.25
+[7 / 40] Final mean reward: 12.0
+[2 / 40] Final mean reward: 14.5
+[5 / 40] Final mean reward: 6.0
+[8 / 40] Final mean reward: 29.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 28.5
+[10 / 40] Final mean reward: 9.5
+[15 / 40] Final mean reward: 12.0
+[16 / 40] Final mean reward: 21.0
+[12 / 40] Final mean reward: 27.75
+[9 / 40] Final mean reward: 21.25
+[13 / 40] Final mean reward: 8.0
+[14 / 40] Final mean reward: 20.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 21.5
+[18 / 40] Final mean reward: 24.75
+[20 / 40] Final mean reward: 10.75
+[24 / 40] Final mean reward: 15.5
+[23 / 40] Final mean reward: 9.0
+[21 / 40] Final mean reward: 22.5
+[19 / 40] Final mean reward: 8.75
+[17 / 40] Final mean reward: 11.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 14.0
+[25 / 40] Final mean reward: 5.75
+[29 / 40] Final mean reward: 20.25
+[30 / 40] Final mean reward: 8.0
+[32 / 40] Final mean reward: 10.25
+[27 / 40] Final mean reward: 13.25
+[26 / 40] Final mean reward: 14.0
+[28 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 18.5
+[33 / 40] Final mean reward: 9.5
+[40 / 40] Final mean reward: 20.0
+[38 / 40] Final mean reward: 8.25
+[39 / 40] Final mean reward: 24.0
+[36 / 40] Final mean reward: 8.75
+[35 / 40] Final mean reward: 19.75
+[37 / 40] Final mean reward: 28.5
+[CONTROLLER] done with batch
+End of population for generation 42.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 29.5
+[CONTROLLER] Average score on all of the processes: 15.6625
+
+[CONTROLLER] Creating generation: 43 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 14.5
+[5 / 40] Final mean reward: 9.0
+[6 / 40] Final mean reward: 11.5
+[8 / 40] Final mean reward: 18.0
+[3 / 40] Final mean reward: 23.75
+[4 / 40] Final mean reward: 9.0
+[2 / 40] Final mean reward: 18.25
+[1 / 40] Final mean reward: 14.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 24.75
+[11 / 40] Final mean reward: 11.5
+[14 / 40] Final mean reward: 6.25
+[10 / 40] Final mean reward: 25.0
+[13 / 40] Final mean reward: 17.0
+[15 / 40] Final mean reward: 26.5
+[9 / 40] Final mean reward: 4.25
+[12 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 23.0
+[17 / 40] Final mean reward: 6.25
+[24 / 40] Final mean reward: 16.25
+[21 / 40] Final mean reward: 19.0
+[19 / 40] Final mean reward: 16.5
+[23 / 40] Final mean reward: 21.5
+[20 / 40] Final mean reward: 10.5
+[18 / 40] Final mean reward: 21.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 6.75
+[26 / 40] Final mean reward: 16.0
+[29 / 40] Final mean reward: 16.75
+[30 / 40] Final mean reward: 28.5
+[28 / 40] Final mean reward: 14.0
+[31 / 40] Final mean reward: 20.5
+[25 / 40] Final mean reward: 18.25
+[27 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 10.5
+[33 / 40] Final mean reward: 6.0
+[38 / 40] Final mean reward: 28.75
+[35 / 40] Final mean reward: 7.25
+[36 / 40] Final mean reward: 17.0
+[39 / 40] Final mean reward: 22.75
+[40 / 40] Final mean reward: 29.5
+[37 / 40] Final mean reward: 23.75
+[CONTROLLER] done with batch
+End of population for generation 43.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 29.5
+[CONTROLLER] Average score on all of the processes: 16.4625
+
+[CONTROLLER] Creating generation: 44 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 13.25
+[4 / 40] Final mean reward: 13.0
+[6 / 40] Final mean reward: 14.5
+[5 / 40] Final mean reward: 23.25
+[1 / 40] Final mean reward: 13.25
+[2 / 40] Final mean reward: 6.5
+[8 / 40] Final mean reward: 12.75
+[3 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 24.5
+[13 / 40] Final mean reward: 23.25
+[11 / 40] Final mean reward: 23.5
+[14 / 40] Final mean reward: 5.5
+[15 / 40] Final mean reward: 11.0
+[12 / 40] Final mean reward: 13.25
+[9 / 40] Final mean reward: 30.75
+[16 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 14.75
+[17 / 40] Final mean reward: 9.75
+[20 / 40] Final mean reward: 9.25
+[24 / 40] Final mean reward: 22.0
+[19 / 40] Final mean reward: 23.0
+[21 / 40] Final mean reward: 9.0
+[18 / 40] Final mean reward: 6.0
+[23 / 40] Final mean reward: 18.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 11.25
+[26 / 40] Final mean reward: 13.75
+[27 / 40] Final mean reward: 20.0
+[30 / 40] Final mean reward: 15.0
+[25 / 40] Final mean reward: 21.0
+[29 / 40] Final mean reward: 3.75
+[32 / 40] Final mean reward: 23.5
+[28 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 21.75
+[36 / 40] Final mean reward: 10.25
+[40 / 40] Final mean reward: 17.75
+[37 / 40] Final mean reward: 20.5
+[39 / 40] Final mean reward: 12.25
+[38 / 40] Final mean reward: 5.75
+[35 / 40] Final mean reward: 6.75
+[34 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+End of population for generation 44.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 30.75
+[CONTROLLER] Average score on all of the processes: 14.65
+
+[CONTROLLER] Creating generation: 45 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 18.0
+[8 / 40] Final mean reward: 15.75
+[7 / 40] Final mean reward: 26.5
+[3 / 40] Final mean reward: 11.25
+[6 / 40] Final mean reward: 7.5
+[4 / 40] Final mean reward: 6.75
+[1 / 40] Final mean reward: 4.25
+[2 / 40] Final mean reward: 13.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 16.25
+[15 / 40] Final mean reward: 21.25
+[9 / 40] Final mean reward: 11.5
+[13 / 40] Final mean reward: 8.0
+[14 / 40] Final mean reward: 17.0
+[12 / 40] Final mean reward: 7.25
+[10 / 40] Final mean reward: 3.0
+[16 / 40] Final mean reward: 2.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 9.5
+[24 / 40] Final mean reward: 16.0
+[20 / 40] Final mean reward: 12.5
+[18 / 40] Final mean reward: 6.25
+[23 / 40] Final mean reward: 9.25
+[17 / 40] Final mean reward: 13.0
+[21 / 40] Final mean reward: 20.75
+[22 / 40] Final mean reward: 22.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 7.0
+[31 / 40] Final mean reward: 17.25
+[32 / 40] Final mean reward: 20.0
+[25 / 40] Final mean reward: 9.0
+[29 / 40] Final mean reward: 23.0
+[26 / 40] Final mean reward: 8.75
+[27 / 40] Final mean reward: 23.5
+[28 / 40] Final mean reward: 7.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 10.5
+[40 / 40] Final mean reward: 22.75
+[35 / 40] Final mean reward: 5.0
+[33 / 40] Final mean reward: 23.75
+[37 / 40] Final mean reward: 8.5
+[34 / 40] Final mean reward: 18.5
+[38 / 40] Final mean reward: 23.25
+[36 / 40] Final mean reward: 22.75
+[CONTROLLER] done with batch
+End of population for generation 45.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 26.5
+[CONTROLLER] Average score on all of the processes: 13.75
+
+[CONTROLLER] Creating generation: 46 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 16.75
+[5 / 40] Final mean reward: 24.5
+[8 / 40] Final mean reward: 28.0
+[7 / 40] Final mean reward: 25.5
+[3 / 40] Final mean reward: 27.5
+[2 / 40] Final mean reward: 29.75
+[6 / 40] Final mean reward: 8.75
+[1 / 40] Final mean reward: 18.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 26.5
+[10 / 40] Final mean reward: 6.0
+[11 / 40] Final mean reward: 9.25
+[12 / 40] Final mean reward: 11.25
+[16 / 40] Final mean reward: 27.75
+[15 / 40] Final mean reward: 6.0
+[9 / 40] Final mean reward: 12.5
+[13 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 4.0
+[21 / 40] Final mean reward: 20.0
+[17 / 40] Final mean reward: 28.5
+[18 / 40] Final mean reward: 7.25
+[24 / 40] Final mean reward: 11.25
+[22 / 40] Final mean reward: 29.0
+[23 / 40] Final mean reward: 12.75
+[19 / 40] Final mean reward: 23.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[29 / 40] Final mean reward: 8.0
+[30 / 40] Final mean reward: 20.5
+[32 / 40] Final mean reward: 12.75
+[25 / 40] Final mean reward: 14.75
+[27 / 40] Final mean reward: 9.0
+[28 / 40] Final mean reward: 7.75
+[31 / 40] Final mean reward: 8.0
+[26 / 40] Final mean reward: 18.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 14.25
+[35 / 40] Final mean reward: 20.0
+[40 / 40] Final mean reward: 13.5
+[39 / 40] Final mean reward: 28.0
+[33 / 40] Final mean reward: 23.0
+[38 / 40] Final mean reward: 9.5
+[37 / 40] Final mean reward: 25.75
+[36 / 40] Final mean reward: 19.0
+[CONTROLLER] done with batch
+End of population for generation 46.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 29.75
+[CONTROLLER] Average score on all of the processes: 16.94375
+
+[CONTROLLER] Creating generation: 47 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 7.5
+[4 / 40] Final mean reward: 20.25
+[3 / 40] Final mean reward: 15.5
+[6 / 40] Final mean reward: 24.75
+[2 / 40] Final mean reward: 15.5
+[8 / 40] Final mean reward: 15.5
+[5 / 40] Final mean reward: 16.0
+[1 / 40] Final mean reward: 19.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 14.75
+[12 / 40] Final mean reward: 7.75
+[11 / 40] Final mean reward: 4.25
+[9 / 40] Final mean reward: 5.75
+[16 / 40] Final mean reward: 14.5
+[14 / 40] Final mean reward: 7.25
+[10 / 40] Final mean reward: 23.5
+[13 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 14.5
+[24 / 40] Final mean reward: 20.25
+[23 / 40] Final mean reward: 3.75
+[19 / 40] Final mean reward: 16.5
+[17 / 40] Final mean reward: 23.75
+[22 / 40] Final mean reward: 11.5
+[20 / 40] Final mean reward: 18.75
+[21 / 40] Final mean reward: 5.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 11.0
+[28 / 40] Final mean reward: 8.75
+[30 / 40] Final mean reward: 15.0
+[32 / 40] Final mean reward: 9.75
+[31 / 40] Final mean reward: 16.5
+[25 / 40] Final mean reward: 17.0
+[26 / 40] Final mean reward: 13.0
+[29 / 40] Final mean reward: 6.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 28.25
+[39 / 40] Final mean reward: 27.0
+[40 / 40] Final mean reward: 36.75
+[37 / 40] Final mean reward: 9.25
+[36 / 40] Final mean reward: 10.75
+[35 / 40] Final mean reward: 21.75
+[34 / 40] Final mean reward: 15.5
+[33 / 40] Final mean reward: 4.5
+[CONTROLLER] done with batch
+End of population for generation 47.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 35.25, new run best score: 36.75
+[CONTROLLER] Average score on all of the processes: 15.00625
+
+[CONTROLLER] Creating generation: 48 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 18.0
+[7 / 40] Final mean reward: 5.5
+[1 / 40] Final mean reward: 25.75
+[4 / 40] Final mean reward: 22.5
+[2 / 40] Final mean reward: 5.25
+[6 / 40] Final mean reward: 21.5
+[3 / 40] Final mean reward: 3.0
+[8 / 40] Final mean reward: 20.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 16.75
+[16 / 40] Final mean reward: 10.75
+[15 / 40] Final mean reward: 28.25
+[14 / 40] Final mean reward: 23.0
+[10 / 40] Final mean reward: 6.5
+[13 / 40] Final mean reward: 29.0
+[11 / 40] Final mean reward: 11.25
+[12 / 40] Final mean reward: 7.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 16.25
+[22 / 40] Final mean reward: 8.5
+[18 / 40] Final mean reward: 24.75
+[20 / 40] Final mean reward: 23.5
+[24 / 40] Final mean reward: 15.5
+[23 / 40] Final mean reward: 26.5
+[17 / 40] Final mean reward: 6.0
+[21 / 40] Final mean reward: 6.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 20.25
+[28 / 40] Final mean reward: 7.25
+[25 / 40] Final mean reward: 26.25
+[30 / 40] Final mean reward: 6.75
+[26 / 40] Final mean reward: 13.75
+[27 / 40] Final mean reward: 9.75
+[29 / 40] Final mean reward: 6.25
+[32 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 14.75
+[33 / 40] Final mean reward: 3.25
+[34 / 40] Final mean reward: 6.75
+[39 / 40] Final mean reward: 9.75
+[40 / 40] Final mean reward: 10.0
+[37 / 40] Final mean reward: 13.5
+[35 / 40] Final mean reward: 2.5
+[38 / 40] Final mean reward: 1.0
+[CONTROLLER] done with batch
+End of population for generation 48.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 29.0
+[CONTROLLER] Average score on all of the processes: 13.61875
+
+[CONTROLLER] Creating generation: 49 ...
+[CONTROLLER] Starting new batch
+[3 / 40] Final mean reward: 28.0
+[8 / 40] Final mean reward: 6.5
+[4 / 40] Final mean reward: 8.75
+[1 / 40] Final mean reward: 23.0
+[6 / 40] Final mean reward: 17.75
+[2 / 40] Final mean reward: 19.5
+[7 / 40] Final mean reward: 16.75
+[5 / 40] Final mean reward: 20.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 23.5
+[13 / 40] Final mean reward: 7.0
+[10 / 40] Final mean reward: 24.0
+[16 / 40] Final mean reward: 10.5
+[12 / 40] Final mean reward: 4.25
+[15 / 40] Final mean reward: 23.5
+[11 / 40] Final mean reward: 18.25
+[9 / 40] Final mean reward: 9.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 5.0
+[19 / 40] Final mean reward: 14.5
+[17 / 40] Final mean reward: 21.5
+[24 / 40] Final mean reward: 8.0
+[22 / 40] Final mean reward: 22.0
+[21 / 40] Final mean reward: 16.25
+[23 / 40] Final mean reward: 13.5
+[18 / 40] Final mean reward: 33.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 12.0
+[29 / 40] Final mean reward: 7.75
+[25 / 40] Final mean reward: 24.75
+[28 / 40] Final mean reward: 17.5
+[27 / 40] Final mean reward: 20.5
+[31 / 40] Final mean reward: 5.25
+[26 / 40] Final mean reward: 27.0
+[30 / 40] Final mean reward: 15.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 20.75
+[40 / 40] Final mean reward: 22.75
+[35 / 40] Final mean reward: 21.0
+[33 / 40] Final mean reward: 23.5
+[39 / 40] Final mean reward: 15.0
+[34 / 40] Final mean reward: 7.25
+[36 / 40] Final mean reward: 11.0
+[37 / 40] Final mean reward: 21.0
+[CONTROLLER] done with batch
+End of population for generation 49.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 33.5
+[CONTROLLER] Average score on all of the processes: 16.70625
+
+[CONTROLLER] Creating generation: 50 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 17.5
+[7 / 40] Final mean reward: 25.25
+[6 / 40] Final mean reward: 20.75
+[5 / 40] Final mean reward: 13.75
+[3 / 40] Final mean reward: 9.75
+[4 / 40] Final mean reward: 14.25
+[1 / 40] Final mean reward: 14.25
+[2 / 40] Final mean reward: 16.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[13 / 40] Final mean reward: 19.75
+[9 / 40] Final mean reward: 9.5
+[14 / 40] Final mean reward: 13.0
+[16 / 40] Final mean reward: 11.0
+[11 / 40] Final mean reward: 12.75
+[15 / 40] Final mean reward: 15.0
+[12 / 40] Final mean reward: 7.75
+[10 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 21.75
+[18 / 40] Final mean reward: 24.0
+[21 / 40] Final mean reward: 6.25
+[19 / 40] Final mean reward: 31.5
+[20 / 40] Final mean reward: 15.75
+[23 / 40] Final mean reward: 11.0
+[24 / 40] Final mean reward: 21.0
+[17 / 40] Final mean reward: 21.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 25.0
+[27 / 40] Final mean reward: 25.5
+[28 / 40] Final mean reward: 17.25
+[26 / 40] Final mean reward: 14.75
+[29 / 40] Final mean reward: 19.75
+[32 / 40] Final mean reward: 10.25
+[31 / 40] Final mean reward: 15.25
+[30 / 40] Final mean reward: 14.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 8.25
+[36 / 40] Final mean reward: 9.25
+[35 / 40] Final mean reward: 17.75
+[38 / 40] Final mean reward: 15.75
+[37 / 40] Final mean reward: 10.5
+[40 / 40] Final mean reward: 11.5
+[39 / 40] Final mean reward: 19.25
+[34 / 40] Final mean reward: 22.25
+[CONTROLLER] done with batch
+End of population for generation 50.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 31.5
+[CONTROLLER] Average score on all of the processes: 16.04375
+
+[CONTROLLER] Creating generation: 51 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 16.5
+[3 / 40] Final mean reward: 8.75
+[5 / 40] Final mean reward: 8.75
+[4 / 40] Final mean reward: 20.25
+[1 / 40] Final mean reward: 17.0
+[7 / 40] Final mean reward: 23.0
+[8 / 40] Final mean reward: 20.25
+[2 / 40] Final mean reward: 26.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 24.25
+[15 / 40] Final mean reward: 8.0
+[16 / 40] Final mean reward: 23.25
+[14 / 40] Final mean reward: 10.5
+[13 / 40] Final mean reward: 28.75
+[11 / 40] Final mean reward: 20.25
+[12 / 40] Final mean reward: 20.75
+[10 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 13.75
+[19 / 40] Final mean reward: 10.0
+[18 / 40] Final mean reward: 11.0
+[22 / 40] Final mean reward: 13.25
+[17 / 40] Final mean reward: 23.0
+[23 / 40] Final mean reward: 10.25
+[20 / 40] Final mean reward: 22.5
+[24 / 40] Final mean reward: 13.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 11.5
+[26 / 40] Final mean reward: 22.25
+[28 / 40] Final mean reward: 8.0
+[30 / 40] Final mean reward: 13.0
+[25 / 40] Final mean reward: 30.25
+[27 / 40] Final mean reward: 6.75
+[29 / 40] Final mean reward: 23.25
+[31 / 40] Final mean reward: 19.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 7.0
+[38 / 40] Final mean reward: 22.25
+[35 / 40] Final mean reward: 29.25
+[36 / 40] Final mean reward: 20.25
+[34 / 40] Final mean reward: 8.5
+[40 / 40] Final mean reward: 16.0
+[33 / 40] Final mean reward: 17.5
+[37 / 40] Final mean reward: 12.0
+[CONTROLLER] done with batch
+End of population for generation 51.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 30.25
+[CONTROLLER] Average score on all of the processes: 16.89375
+
+[CONTROLLER] Creating generation: 52 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 20.5
+[4 / 40] Final mean reward: 19.0
+[1 / 40] Final mean reward: 16.0
+[3 / 40] Final mean reward: 16.0
+[6 / 40] Final mean reward: 11.5
+[7 / 40] Final mean reward: 10.0
+[8 / 40] Final mean reward: 28.5
+[2 / 40] Final mean reward: 23.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 27.0
+[13 / 40] Final mean reward: 15.75
+[16 / 40] Final mean reward: 28.25
+[9 / 40] Final mean reward: 15.5
+[14 / 40] Final mean reward: 8.25
+[11 / 40] Final mean reward: 18.5
+[10 / 40] Final mean reward: 9.5
+[12 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 19.0
+[22 / 40] Final mean reward: 9.75
+[17 / 40] Final mean reward: 7.0
+[21 / 40] Final mean reward: 12.75
+[24 / 40] Final mean reward: 13.25
+[20 / 40] Final mean reward: 5.25
+[18 / 40] Final mean reward: 9.75
+[19 / 40] Final mean reward: 4.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 16.75
+[32 / 40] Final mean reward: 16.5
+[25 / 40] Final mean reward: 4.25
+[28 / 40] Final mean reward: 17.5
+[29 / 40] Final mean reward: 7.0
+[26 / 40] Final mean reward: 19.5
+[30 / 40] Final mean reward: 12.0
+[31 / 40] Final mean reward: 26.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 23.75
+[34 / 40] Final mean reward: 16.25
+[38 / 40] Final mean reward: 20.0
+[36 / 40] Final mean reward: 22.5
+[35 / 40] Final mean reward: 14.25
+[40 / 40] Final mean reward: 7.0
+[33 / 40] Final mean reward: 4.5
+[39 / 40] Final mean reward: 17.0
+[CONTROLLER] done with batch
+End of population for generation 52.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 28.5
+[CONTROLLER] Average score on all of the processes: 15.025
+
+[CONTROLLER] Creating generation: 53 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 19.25
+[2 / 40] Final mean reward: 19.75
+[4 / 40] Final mean reward: 3.5
+[8 / 40] Final mean reward: 27.0
+[7 / 40] Final mean reward: 21.75
+[1 / 40] Final mean reward: 9.5
+[3 / 40] Final mean reward: 26.5
+[6 / 40] Final mean reward: 19.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 16.75
+[13 / 40] Final mean reward: 18.25
+[11 / 40] Final mean reward: 17.25
+[12 / 40] Final mean reward: 8.5
+[16 / 40] Final mean reward: 13.25
+[14 / 40] Final mean reward: 10.5
+[9 / 40] Final mean reward: 7.0
+[15 / 40] Final mean reward: 18.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 23.0
+[22 / 40] Final mean reward: 31.0
+[19 / 40] Final mean reward: 15.75
+[23 / 40] Final mean reward: 5.0
+[20 / 40] Final mean reward: 14.0
+[17 / 40] Final mean reward: 19.25
+[24 / 40] Final mean reward: 5.25
+[18 / 40] Final mean reward: 19.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 28.75
+[27 / 40] Final mean reward: 23.25
+[26 / 40] Final mean reward: 7.5
+[28 / 40] Final mean reward: 10.0
+[31 / 40] Final mean reward: 9.0
+[30 / 40] Final mean reward: 9.5
+[25 / 40] Final mean reward: 9.75
+[29 / 40] Final mean reward: 22.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 17.0
+[35 / 40] Final mean reward: 9.5
+[38 / 40] Final mean reward: 17.5
+[36 / 40] Final mean reward: 6.75
+[39 / 40] Final mean reward: 2.5
+[40 / 40] Final mean reward: 31.75
+[33 / 40] Final mean reward: 20.5
+[34 / 40] Final mean reward: 18.75
+[CONTROLLER] done with batch
+End of population for generation 53.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 31.75
+[CONTROLLER] Average score on all of the processes: 15.85625
+
+[CONTROLLER] Creating generation: 54 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 15.5
+[5 / 40] Final mean reward: 10.25
+[6 / 40] Final mean reward: 15.25
+[8 / 40] Final mean reward: 13.25
+[7 / 40] Final mean reward: 6.25
+[1 / 40] Final mean reward: 25.0
+[3 / 40] Final mean reward: 6.5
+[2 / 40] Final mean reward: 25.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 15.25
+[13 / 40] Final mean reward: 14.75
+[11 / 40] Final mean reward: 15.25
+[15 / 40] Final mean reward: 12.0
+[9 / 40] Final mean reward: 10.5
+[14 / 40] Final mean reward: 10.5
+[10 / 40] Final mean reward: 4.0
+[12 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 5.0
+[24 / 40] Final mean reward: 7.75
+[17 / 40] Final mean reward: 14.25
+[19 / 40] Final mean reward: 0.25
+[23 / 40] Final mean reward: 6.25
+[18 / 40] Final mean reward: 13.25
+[20 / 40] Final mean reward: 12.25
+[22 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 17.0
+[29 / 40] Final mean reward: 14.25
+[30 / 40] Final mean reward: 13.5
+[26 / 40] Final mean reward: 27.25
+[31 / 40] Final mean reward: 12.5
+[32 / 40] Final mean reward: 2.75
+[27 / 40] Final mean reward: 23.5
+[25 / 40] Final mean reward: 26.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[35 / 40] Final mean reward: 7.5
+[37 / 40] Final mean reward: 14.0
+[33 / 40] Final mean reward: 6.0
+[36 / 40] Final mean reward: 8.25
+[39 / 40] Final mean reward: 9.5
+[38 / 40] Final mean reward: 6.75
+[34 / 40] Final mean reward: 16.0
+[40 / 40] Final mean reward: 26.0
+[CONTROLLER] done with batch
+End of population for generation 54.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 27.25
+[CONTROLLER] Average score on all of the processes: 12.89375
+
+[CONTROLLER] Creating generation: 55 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 22.5
+[3 / 40] Final mean reward: 12.25
+[7 / 40] Final mean reward: 25.0
+[6 / 40] Final mean reward: 6.0
+[5 / 40] Final mean reward: 28.25
+[1 / 40] Final mean reward: 15.75
+[2 / 40] Final mean reward: 3.75
+[8 / 40] Final mean reward: 20.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 12.75
+[10 / 40] Final mean reward: 11.25
+[16 / 40] Final mean reward: 3.0
+[15 / 40] Final mean reward: 19.25
+[9 / 40] Final mean reward: 12.5
+[11 / 40] Final mean reward: 28.5
+[14 / 40] Final mean reward: 22.0
+[13 / 40] Final mean reward: 25.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[19 / 40] Final mean reward: 11.0
+[22 / 40] Final mean reward: 16.25
+[24 / 40] Final mean reward: 16.25
+[17 / 40] Final mean reward: 3.25
+[23 / 40] Final mean reward: 12.75
+[21 / 40] Final mean reward: 10.75
+[20 / 40] Final mean reward: 11.5
+[18 / 40] Final mean reward: 26.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[29 / 40] Final mean reward: 14.5
+[27 / 40] Final mean reward: 15.0
+[26 / 40] Final mean reward: 23.25
+[30 / 40] Final mean reward: 11.75
+[28 / 40] Final mean reward: 21.5
+[32 / 40] Final mean reward: 15.0
+[25 / 40] Final mean reward: 12.25
+[31 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 27.5
+[40 / 40] Final mean reward: 16.25
+[37 / 40] Final mean reward: 28.75
+[39 / 40] Final mean reward: 25.25
+[34 / 40] Final mean reward: 4.75
+[35 / 40] Final mean reward: 23.0
+[33 / 40] Final mean reward: 27.0
+[36 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+End of population for generation 55.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 28.75
+[CONTROLLER] Average score on all of the processes: 16.58125
+
+[CONTROLLER] Creating generation: 56 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 17.0
+[4 / 40] Final mean reward: 10.0
+[3 / 40] Final mean reward: 7.0
+[1 / 40] Final mean reward: 25.0
+[2 / 40] Final mean reward: 13.5
+[5 / 40] Final mean reward: 17.75
+[6 / 40] Final mean reward: 12.5
+[8 / 40] Final mean reward: 21.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[11 / 40] Final mean reward: 13.75
+[9 / 40] Final mean reward: 9.25
+[13 / 40] Final mean reward: 21.75
+[16 / 40] Final mean reward: 4.75
+[15 / 40] Final mean reward: 24.75
+[12 / 40] Final mean reward: 5.75
+[10 / 40] Final mean reward: 11.75
+[14 / 40] Final mean reward: 22.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[17 / 40] Final mean reward: 7.5
+[22 / 40] Final mean reward: 17.75
+[19 / 40] Final mean reward: 17.5
+[20 / 40] Final mean reward: 10.5
+[21 / 40] Final mean reward: 11.5
+[23 / 40] Final mean reward: 8.25
+[18 / 40] Final mean reward: 21.5
+[24 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 5.75
+[32 / 40] Final mean reward: 10.0
+[31 / 40] Final mean reward: 9.75
+[27 / 40] Final mean reward: 18.0
+[30 / 40] Final mean reward: 28.75
+[25 / 40] Final mean reward: 13.5
+[28 / 40] Final mean reward: 25.0
+[29 / 40] Final mean reward: 13.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 16.5
+[34 / 40] Final mean reward: 25.25
+[35 / 40] Final mean reward: 25.0
+[36 / 40] Final mean reward: 22.0
+[33 / 40] Final mean reward: 6.25
+[38 / 40] Final mean reward: 15.5
+[40 / 40] Final mean reward: 22.0
+[37 / 40] Final mean reward: 14.25
+[CONTROLLER] done with batch
+End of population for generation 56.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 28.75
+[CONTROLLER] Average score on all of the processes: 15.3375
+
+[CONTROLLER] Creating generation: 57 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 17.25
+[4 / 40] Final mean reward: 10.0
+[6 / 40] Final mean reward: 3.75
+[8 / 40] Final mean reward: 10.75
+[7 / 40] Final mean reward: 27.25
+[3 / 40] Final mean reward: 13.5
+[5 / 40] Final mean reward: 15.0
+[1 / 40] Final mean reward: 22.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 9.75
+[12 / 40] Final mean reward: 15.75
+[16 / 40] Final mean reward: 17.5
+[15 / 40] Final mean reward: 9.5
+[14 / 40] Final mean reward: 18.5
+[11 / 40] Final mean reward: 20.5
+[10 / 40] Final mean reward: 16.0
+[13 / 40] Final mean reward: 17.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 14.25
+[18 / 40] Final mean reward: 20.0
+[20 / 40] Final mean reward: 21.5
+[24 / 40] Final mean reward: 25.5
+[17 / 40] Final mean reward: 11.0
+[19 / 40] Final mean reward: 12.5
+[22 / 40] Final mean reward: 25.75
+[23 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 20.75
+[32 / 40] Final mean reward: 12.75
+[25 / 40] Final mean reward: 10.5
+[28 / 40] Final mean reward: 24.75
+[27 / 40] Final mean reward: 15.25
+[29 / 40] Final mean reward: 19.0
+[30 / 40] Final mean reward: 24.5
+[26 / 40] Final mean reward: 2.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[34 / 40] Final mean reward: 19.75
+[40 / 40] Final mean reward: 15.0
+[36 / 40] Final mean reward: 17.25
+[38 / 40] Final mean reward: 16.25
+[37 / 40] Final mean reward: 14.0
+[35 / 40] Final mean reward: 29.75
+[33 / 40] Final mean reward: 14.0
+[39 / 40] Final mean reward: 11.75
+[CONTROLLER] done with batch
+End of population for generation 57.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 29.75
+[CONTROLLER] Average score on all of the processes: 16.36875
+
+[CONTROLLER] Creating generation: 58 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 34.75
+[4 / 40] Final mean reward: 14.75
+[6 / 40] Final mean reward: 10.25
+[7 / 40] Final mean reward: 15.75
+[3 / 40] Final mean reward: 12.0
+[8 / 40] Final mean reward: 10.75
+[1 / 40] Final mean reward: 7.0
+[5 / 40] Final mean reward: 29.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 7.0
+[15 / 40] Final mean reward: 16.25
+[9 / 40] Final mean reward: 6.0
+[14 / 40] Final mean reward: 4.5
+[16 / 40] Final mean reward: 17.25
+[11 / 40] Final mean reward: 19.75
+[13 / 40] Final mean reward: 31.0
+[10 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 29.25
+[24 / 40] Final mean reward: 10.25
+[17 / 40] Final mean reward: 14.25
+[23 / 40] Final mean reward: 11.0
+[20 / 40] Final mean reward: 13.5
+[21 / 40] Final mean reward: 5.0
+[18 / 40] Final mean reward: 19.25
+[19 / 40] Final mean reward: 19.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 25.25
+[30 / 40] Final mean reward: 23.75
+[25 / 40] Final mean reward: 15.0
+[32 / 40] Final mean reward: 13.75
+[29 / 40] Final mean reward: 5.5
+[27 / 40] Final mean reward: 16.75
+[26 / 40] Final mean reward: 23.75
+[31 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 1.0
+[39 / 40] Final mean reward: 4.0
+[40 / 40] Final mean reward: 27.5
+[37 / 40] Final mean reward: 14.25
+[35 / 40] Final mean reward: 28.0
+[34 / 40] Final mean reward: 9.0
+[36 / 40] Final mean reward: 18.75
+[38 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+End of population for generation 58.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 34.75
+[CONTROLLER] Average score on all of the processes: 15.6625
+
+[CONTROLLER] Creating generation: 59 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 3.0
+[7 / 40] Final mean reward: 16.25
+[6 / 40] Final mean reward: 20.25
+[3 / 40] Final mean reward: 32.0
+[5 / 40] Final mean reward: 2.25
+[2 / 40] Final mean reward: 10.25
+[1 / 40] Final mean reward: 18.25
+[4 / 40] Final mean reward: 15.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 17.25
+[12 / 40] Final mean reward: 10.25
+[14 / 40] Final mean reward: 30.0
+[16 / 40] Final mean reward: 7.5
+[9 / 40] Final mean reward: 11.0
+[10 / 40] Final mean reward: 26.25
+[11 / 40] Final mean reward: 22.25
+[13 / 40] Final mean reward: 2.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 9.25
+[21 / 40] Final mean reward: 7.75
+[17 / 40] Final mean reward: 19.0
+[19 / 40] Final mean reward: 17.75
+[18 / 40] Final mean reward: 30.75
+[24 / 40] Final mean reward: 16.25
+[23 / 40] Final mean reward: 15.75
+[22 / 40] Final mean reward: 10.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 7.5
+[28 / 40] Final mean reward: 12.25
+[27 / 40] Final mean reward: 8.75
+[25 / 40] Final mean reward: 19.75
+[29 / 40] Final mean reward: 9.0
+[26 / 40] Final mean reward: 13.0
+[32 / 40] Final mean reward: 24.5
+[30 / 40] Final mean reward: 15.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 5.25
+[35 / 40] Final mean reward: 5.25
+[36 / 40] Final mean reward: 16.25
+[34 / 40] Final mean reward: 2.75
+[39 / 40] Final mean reward: 14.75
+[40 / 40] Final mean reward: 21.75
+[33 / 40] Final mean reward: 28.0
+[38 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+End of population for generation 59.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 32.0
+[CONTROLLER] Average score on all of the processes: 14.64375
+
+[CONTROLLER] Creating generation: 60 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 8.5
+[6 / 40] Final mean reward: 12.5
+[3 / 40] Final mean reward: 25.0
+[1 / 40] Final mean reward: 7.75
+[4 / 40] Final mean reward: 16.5
+[5 / 40] Final mean reward: 16.0
+[7 / 40] Final mean reward: 7.0
+[2 / 40] Final mean reward: 24.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 15.0
+[14 / 40] Final mean reward: 13.75
+[16 / 40] Final mean reward: 10.0
+[15 / 40] Final mean reward: 28.25
+[10 / 40] Final mean reward: 21.5
+[11 / 40] Final mean reward: 21.5
+[13 / 40] Final mean reward: 13.5
+[12 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 22.25
+[19 / 40] Final mean reward: 30.5
+[22 / 40] Final mean reward: 18.75
+[17 / 40] Final mean reward: 13.5
+[24 / 40] Final mean reward: 22.5
+[21 / 40] Final mean reward: 16.5
+[18 / 40] Final mean reward: 9.0
+[20 / 40] Final mean reward: 5.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 17.5
+[29 / 40] Final mean reward: 22.5
+[25 / 40] Final mean reward: 12.75
+[32 / 40] Final mean reward: 20.5
+[27 / 40] Final mean reward: 33.0
+[31 / 40] Final mean reward: 23.0
+[30 / 40] Final mean reward: 19.25
+[28 / 40] Final mean reward: 17.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 16.25
+[33 / 40] Final mean reward: 16.5
+[34 / 40] Final mean reward: 6.5
+[38 / 40] Final mean reward: 18.75
+[35 / 40] Final mean reward: 6.0
+[40 / 40] Final mean reward: 13.25
+[39 / 40] Final mean reward: 9.5
+[37 / 40] Final mean reward: 8.75
+[CONTROLLER] done with batch
+End of population for generation 60.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 33.0
+[CONTROLLER] Average score on all of the processes: 16.575
+
+[CONTROLLER] Creating generation: 61 ...
+[CONTROLLER] Starting new batch
+[4 / 40] Final mean reward: 19.5
+[6 / 40] Final mean reward: 28.75
+[3 / 40] Final mean reward: 22.75
+[8 / 40] Final mean reward: 26.0
+[7 / 40] Final mean reward: 7.0
+[2 / 40] Final mean reward: 14.5
+[1 / 40] Final mean reward: 19.25
+[5 / 40] Final mean reward: 20.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[15 / 40] Final mean reward: 22.25
+[13 / 40] Final mean reward: 25.75
+[16 / 40] Final mean reward: 10.0
+[11 / 40] Final mean reward: 25.25
+[10 / 40] Final mean reward: 25.25
+[9 / 40] Final mean reward: 30.25
+[14 / 40] Final mean reward: 17.0
+[12 / 40] Final mean reward: 24.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[17 / 40] Final mean reward: 22.75
+[18 / 40] Final mean reward: 12.5
+[19 / 40] Final mean reward: 21.0
+[20 / 40] Final mean reward: 28.5
+[24 / 40] Final mean reward: 14.75
+[23 / 40] Final mean reward: 11.25
+[21 / 40] Final mean reward: 17.0
+[22 / 40] Final mean reward: 13.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 25.0
+[31 / 40] Final mean reward: 26.0
+[30 / 40] Final mean reward: 10.25
+[29 / 40] Final mean reward: 23.0
+[27 / 40] Final mean reward: 19.5
+[32 / 40] Final mean reward: 26.5
+[26 / 40] Final mean reward: 13.25
+[25 / 40] Final mean reward: 16.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[37 / 40] Final mean reward: 15.0
+[36 / 40] Final mean reward: 23.5
+[33 / 40] Final mean reward: 21.0
+[38 / 40] Final mean reward: 28.0
+[39 / 40] Final mean reward: 29.0
+[35 / 40] Final mean reward: 24.25
+[34 / 40] Final mean reward: 26.0
+[40 / 40] Final mean reward: 20.25
+[CONTROLLER] done with batch
+End of population for generation 61.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 30.25
+[CONTROLLER] Average score on all of the processes: 20.65625
+
+[CONTROLLER] Creating generation: 62 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 22.75
+[5 / 40] Final mean reward: 18.0
+[4 / 40] Final mean reward: 8.0
+[1 / 40] Final mean reward: 20.5
+[6 / 40] Final mean reward: 13.25
+[8 / 40] Final mean reward: 20.75
+[3 / 40] Final mean reward: 18.5
+[2 / 40] Final mean reward: 20.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[16 / 40] Final mean reward: 4.0
+[14 / 40] Final mean reward: 16.25
+[10 / 40] Final mean reward: 5.25
+[9 / 40] Final mean reward: 15.75
+[11 / 40] Final mean reward: 13.75
+[12 / 40] Final mean reward: 21.25
+[13 / 40] Final mean reward: 26.5
+[15 / 40] Final mean reward: 21.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 28.0
+[20 / 40] Final mean reward: 15.75
+[18 / 40] Final mean reward: 18.0
+[24 / 40] Final mean reward: 7.0
+[21 / 40] Final mean reward: 6.0
+[17 / 40] Final mean reward: 29.25
+[22 / 40] Final mean reward: 23.5
+[19 / 40] Final mean reward: 20.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 10.75
+[31 / 40] Final mean reward: 10.5
+[25 / 40] Final mean reward: 14.25
+[29 / 40] Final mean reward: 4.5
+[26 / 40] Final mean reward: 26.0
+[30 / 40] Final mean reward: 22.75
+[27 / 40] Final mean reward: 12.25
+[28 / 40] Final mean reward: 8.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 12.25
+[38 / 40] Final mean reward: 5.0
+[36 / 40] Final mean reward: 17.0
+[35 / 40] Final mean reward: 26.75
+[39 / 40] Final mean reward: 15.0
+[37 / 40] Final mean reward: 12.0
+[34 / 40] Final mean reward: 18.5
+[40 / 40] Final mean reward: 19.5
+[CONTROLLER] done with batch
+End of population for generation 62.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 29.25
+[CONTROLLER] Average score on all of the processes: 16.2625
+
+[CONTROLLER] Creating generation: 63 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 22.0
+[4 / 40] Final mean reward: 6.0
+[5 / 40] Final mean reward: 26.0
+[7 / 40] Final mean reward: 15.25
+[6 / 40] Final mean reward: 20.75
+[8 / 40] Final mean reward: 14.0
+[1 / 40] Final mean reward: 12.75
+[3 / 40] Final mean reward: 4.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 27.75
+[14 / 40] Final mean reward: 14.75
+[12 / 40] Final mean reward: 26.75
+[11 / 40] Final mean reward: 17.25
+[10 / 40] Final mean reward: 18.25
+[13 / 40] Final mean reward: 11.75
+[15 / 40] Final mean reward: 17.0
+[16 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 18.25
+[23 / 40] Final mean reward: 10.75
+[18 / 40] Final mean reward: 11.0
+[17 / 40] Final mean reward: 27.75
+[21 / 40] Final mean reward: 17.5
+[22 / 40] Final mean reward: 12.75
+[19 / 40] Final mean reward: 21.0
+[20 / 40] Final mean reward: 9.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 11.0
+[25 / 40] Final mean reward: 12.25
+[30 / 40] Final mean reward: 11.0
+[32 / 40] Final mean reward: 6.5
+[29 / 40] Final mean reward: 17.5
+[27 / 40] Final mean reward: 24.5
+[26 / 40] Final mean reward: 6.25
+[31 / 40] Final mean reward: 26.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 27.5
+[40 / 40] Final mean reward: 28.75
+[33 / 40] Final mean reward: 18.75
+[36 / 40] Final mean reward: 27.25
+[34 / 40] Final mean reward: 21.0
+[37 / 40] Final mean reward: 10.75
+[39 / 40] Final mean reward: 24.75
+[35 / 40] Final mean reward: 4.75
+[CONTROLLER] done with batch
+End of population for generation 63.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 28.75
+[CONTROLLER] Average score on all of the processes: 17.08125
+
+[CONTROLLER] Creating generation: 64 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 8.75
+[7 / 40] Final mean reward: 11.75
+[4 / 40] Final mean reward: 19.0
+[3 / 40] Final mean reward: 11.25
+[6 / 40] Final mean reward: 25.0
+[1 / 40] Final mean reward: 22.75
+[2 / 40] Final mean reward: 20.0
+[5 / 40] Final mean reward: 28.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 22.5
+[16 / 40] Final mean reward: 24.5
+[9 / 40] Final mean reward: 9.0
+[11 / 40] Final mean reward: 19.75
+[12 / 40] Final mean reward: 15.5
+[13 / 40] Final mean reward: 8.5
+[15 / 40] Final mean reward: 27.0
+[14 / 40] Final mean reward: 13.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[20 / 40] Final mean reward: 7.5
+[24 / 40] Final mean reward: 17.25
+[23 / 40] Final mean reward: 16.0
+[21 / 40] Final mean reward: 16.75
+[17 / 40] Final mean reward: 15.25
+[18 / 40] Final mean reward: 23.5
+[22 / 40] Final mean reward: 20.25
+[19 / 40] Final mean reward: 9.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[26 / 40] Final mean reward: 23.25
+[27 / 40] Final mean reward: 19.25
+[30 / 40] Final mean reward: 21.75
+[31 / 40] Final mean reward: 23.25
+[29 / 40] Final mean reward: 13.25
+[28 / 40] Final mean reward: 7.5
+[32 / 40] Final mean reward: 11.5
+[25 / 40] Final mean reward: 5.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 27.5
+[35 / 40] Final mean reward: 19.25
+[36 / 40] Final mean reward: 19.75
+[37 / 40] Final mean reward: 13.0
+[40 / 40] Final mean reward: 11.75
+[39 / 40] Final mean reward: 8.0
+[34 / 40] Final mean reward: 13.5
+[38 / 40] Final mean reward: 8.75
+[CONTROLLER] done with batch
+End of population for generation 64.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 28.25
+[CONTROLLER] Average score on all of the processes: 16.5
+
+[CONTROLLER] Creating generation: 65 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 3.5
+[1 / 40] Final mean reward: 7.75
+[6 / 40] Final mean reward: 5.75
+[3 / 40] Final mean reward: 5.75
+[2 / 40] Final mean reward: 16.75
+[8 / 40] Final mean reward: 15.75
+[4 / 40] Final mean reward: 15.5
+[5 / 40] Final mean reward: 23.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[14 / 40] Final mean reward: 7.75
+[12 / 40] Final mean reward: 20.75
+[15 / 40] Final mean reward: 24.5
+[16 / 40] Final mean reward: 14.5
+[10 / 40] Final mean reward: 12.0
+[9 / 40] Final mean reward: 8.75
+[11 / 40] Final mean reward: 23.25
+[13 / 40] Final mean reward: 13.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[21 / 40] Final mean reward: 10.0
+[17 / 40] Final mean reward: 21.5
+[23 / 40] Final mean reward: 10.25
+[24 / 40] Final mean reward: 16.5
+[19 / 40] Final mean reward: 17.25
+[22 / 40] Final mean reward: 17.0
+[18 / 40] Final mean reward: 7.25
+[20 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[25 / 40] Final mean reward: 28.5
+[32 / 40] Final mean reward: 5.0
+[26 / 40] Final mean reward: 9.0
+[30 / 40] Final mean reward: 8.5
+[29 / 40] Final mean reward: 23.0
+[28 / 40] Final mean reward: 16.5
+[31 / 40] Final mean reward: 9.0
+[27 / 40] Final mean reward: 16.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 21.5
+[34 / 40] Final mean reward: 29.25
+[33 / 40] Final mean reward: 17.75
+[38 / 40] Final mean reward: 19.75
+[35 / 40] Final mean reward: 23.0
+[36 / 40] Final mean reward: 7.0
+[40 / 40] Final mean reward: 12.25
+[37 / 40] Final mean reward: 8.5
+[CONTROLLER] done with batch
+End of population for generation 65.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 29.25
+[CONTROLLER] Average score on all of the processes: 14.56875
+
+[CONTROLLER] Creating generation: 66 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 23.25
+[8 / 40] Final mean reward: 11.75
+[7 / 40] Final mean reward: 10.25
+[1 / 40] Final mean reward: 13.25
+[5 / 40] Final mean reward: 19.75
+[3 / 40] Final mean reward: 7.0
+[2 / 40] Final mean reward: 8.5
+[4 / 40] Final mean reward: 3.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 11.0
+[12 / 40] Final mean reward: 12.5
+[14 / 40] Final mean reward: 13.75
+[10 / 40] Final mean reward: 21.75
+[15 / 40] Final mean reward: 27.5
+[13 / 40] Final mean reward: 13.0
+[16 / 40] Final mean reward: 4.5
+[11 / 40] Final mean reward: 20.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[24 / 40] Final mean reward: 22.5
+[17 / 40] Final mean reward: 23.5
+[18 / 40] Final mean reward: 9.75
+[21 / 40] Final mean reward: 4.25
+[20 / 40] Final mean reward: 24.25
+[23 / 40] Final mean reward: 3.0
+[19 / 40] Final mean reward: 19.0
+[22 / 40] Final mean reward: 26.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 22.25
+[29 / 40] Final mean reward: 28.0
+[26 / 40] Final mean reward: 28.5
+[32 / 40] Final mean reward: 31.5
+[28 / 40] Final mean reward: 5.0
+[27 / 40] Final mean reward: 9.75
+[25 / 40] Final mean reward: 5.0
+[30 / 40] Final mean reward: 10.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[33 / 40] Final mean reward: 13.5
+[38 / 40] Final mean reward: 14.75
+[39 / 40] Final mean reward: 25.75
+[40 / 40] Final mean reward: 20.25
+[34 / 40] Final mean reward: 24.75
+[35 / 40] Final mean reward: 17.0
+[37 / 40] Final mean reward: 22.5
+[36 / 40] Final mean reward: 9.25
+[CONTROLLER] done with batch
+End of population for generation 66.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 31.5
+[CONTROLLER] Average score on all of the processes: 16.0625
+
+[CONTROLLER] Creating generation: 67 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 13.75
+[5 / 40] Final mean reward: 22.5
+[7 / 40] Final mean reward: 8.75
+[2 / 40] Final mean reward: 15.75
+[3 / 40] Final mean reward: 21.25
+[1 / 40] Final mean reward: 4.25
+[8 / 40] Final mean reward: 16.0
+[4 / 40] Final mean reward: 8.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[10 / 40] Final mean reward: 21.75
+[11 / 40] Final mean reward: 15.0
+[16 / 40] Final mean reward: 29.75
+[9 / 40] Final mean reward: 11.0
+[15 / 40] Final mean reward: 6.0
+[14 / 40] Final mean reward: 11.5
+[13 / 40] Final mean reward: 22.25
+[12 / 40] Final mean reward: 12.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[18 / 40] Final mean reward: 15.0
+[24 / 40] Final mean reward: 3.0
+[20 / 40] Final mean reward: 12.5
+[23 / 40] Final mean reward: 0.25
+[19 / 40] Final mean reward: 9.5
+[22 / 40] Final mean reward: 16.5
+[21 / 40] Final mean reward: 18.0
+[17 / 40] Final mean reward: 7.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[27 / 40] Final mean reward: 10.5
+[26 / 40] Final mean reward: 10.0
+[31 / 40] Final mean reward: 22.75
+[32 / 40] Final mean reward: 27.0
+[29 / 40] Final mean reward: 31.75
+[28 / 40] Final mean reward: 16.25
+[30 / 40] Final mean reward: 16.0
+[25 / 40] Final mean reward: 21.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 13.5
+[40 / 40] Final mean reward: 19.75
+[34 / 40] Final mean reward: 8.0
+[35 / 40] Final mean reward: 19.25
+[33 / 40] Final mean reward: 15.25
+[37 / 40] Final mean reward: 22.25
+[36 / 40] Final mean reward: 8.5
+[39 / 40] Final mean reward: 16.5
+[CONTROLLER] done with batch
+End of population for generation 67.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 31.75
+[CONTROLLER] Average score on all of the processes: 15.03125
+
+[CONTROLLER] Creating generation: 68 ...
+[CONTROLLER] Starting new batch
+[8 / 40] Final mean reward: 21.0
+[4 / 40] Final mean reward: 11.75
+[3 / 40] Final mean reward: 17.0
+[6 / 40] Final mean reward: 19.75
+[5 / 40] Final mean reward: 20.0
+[7 / 40] Final mean reward: 24.25
+[2 / 40] Final mean reward: 21.0
+[1 / 40] Final mean reward: 17.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 35.5
+[16 / 40] Final mean reward: 5.0
+[10 / 40] Final mean reward: 9.0
+[14 / 40] Final mean reward: 15.25
+[11 / 40] Final mean reward: 19.5
+[13 / 40] Final mean reward: 12.75
+[9 / 40] Final mean reward: 11.0
+[15 / 40] Final mean reward: 12.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 22.25
+[18 / 40] Final mean reward: 20.5
+[22 / 40] Final mean reward: 25.5
+[19 / 40] Final mean reward: 11.5
+[24 / 40] Final mean reward: 8.0
+[21 / 40] Final mean reward: 5.5
+[20 / 40] Final mean reward: 20.0
+[17 / 40] Final mean reward: 23.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[32 / 40] Final mean reward: 7.25
+[31 / 40] Final mean reward: 21.75
+[27 / 40] Final mean reward: 29.0
+[29 / 40] Final mean reward: 8.75
+[25 / 40] Final mean reward: 13.5
+[30 / 40] Final mean reward: 20.0
+[26 / 40] Final mean reward: 8.5
+[28 / 40] Final mean reward: 24.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[38 / 40] Final mean reward: 12.75
+[35 / 40] Final mean reward: 6.5
+[36 / 40] Final mean reward: 33.75
+[37 / 40] Final mean reward: 24.25
+[40 / 40] Final mean reward: 17.75
+[39 / 40] Final mean reward: 15.25
+[33 / 40] Final mean reward: 25.5
+[34 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+End of population for generation 68.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 35.5
+[CONTROLLER] Average score on all of the processes: 17.2
+
+[CONTROLLER] Creating generation: 69 ...
+[CONTROLLER] Starting new batch
+[2 / 40] Final mean reward: 13.25
+[5 / 40] Final mean reward: 4.75
+[8 / 40] Final mean reward: 11.0
+[7 / 40] Final mean reward: 24.25
+[3 / 40] Final mean reward: 29.5
+[6 / 40] Final mean reward: 20.75
+[4 / 40] Final mean reward: 13.25
+[1 / 40] Final mean reward: 7.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 18.25
+[12 / 40] Final mean reward: 17.25
+[13 / 40] Final mean reward: 16.0
+[11 / 40] Final mean reward: 10.0
+[15 / 40] Final mean reward: 11.0
+[14 / 40] Final mean reward: 14.5
+[10 / 40] Final mean reward: 20.5
+[16 / 40] Final mean reward: 9.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[17 / 40] Final mean reward: 9.75
+[22 / 40] Final mean reward: 10.0
+[20 / 40] Final mean reward: 27.25
+[19 / 40] Final mean reward: 20.5
+[21 / 40] Final mean reward: 11.25
+[23 / 40] Final mean reward: 11.5
+[24 / 40] Final mean reward: 4.25
+[18 / 40] Final mean reward: 11.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[30 / 40] Final mean reward: 20.0
+[28 / 40] Final mean reward: 7.75
+[29 / 40] Final mean reward: 20.5
+[25 / 40] Final mean reward: 14.5
+[27 / 40] Final mean reward: 27.0
+[26 / 40] Final mean reward: 13.5
+[31 / 40] Final mean reward: 8.25
+[32 / 40] Final mean reward: 20.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[39 / 40] Final mean reward: 23.0
+[34 / 40] Final mean reward: 27.25
+[38 / 40] Final mean reward: 8.25
+[37 / 40] Final mean reward: 23.5
+[36 / 40] Final mean reward: 14.0
+[33 / 40] Final mean reward: 8.5
+[35 / 40] Final mean reward: 12.75
+[40 / 40] Final mean reward: 20.5
+[CONTROLLER] done with batch
+End of population for generation 69.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 29.5
+[CONTROLLER] Average score on all of the processes: 15.4
+
+[CONTROLLER] Creating generation: 70 ...
+[CONTROLLER] Starting new batch
+[7 / 40] Final mean reward: 28.0
+[3 / 40] Final mean reward: 20.75
+[5 / 40] Final mean reward: 5.75
+[6 / 40] Final mean reward: 24.0
+[1 / 40] Final mean reward: 10.0
+[2 / 40] Final mean reward: 9.25
+[8 / 40] Final mean reward: 32.0
+[4 / 40] Final mean reward: 15.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[13 / 40] Final mean reward: 24.75
+[9 / 40] Final mean reward: 18.5
+[10 / 40] Final mean reward: 34.0
+[12 / 40] Final mean reward: 8.25
+[15 / 40] Final mean reward: 14.0
+[16 / 40] Final mean reward: 33.0
+[11 / 40] Final mean reward: 27.75
+[14 / 40] Final mean reward: 26.0
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[22 / 40] Final mean reward: 10.5
+[17 / 40] Final mean reward: 19.25
+[21 / 40] Final mean reward: 20.0
+[20 / 40] Final mean reward: 23.5
+[18 / 40] Final mean reward: 24.75
+[19 / 40] Final mean reward: 22.25
+[23 / 40] Final mean reward: 26.0
+[24 / 40] Final mean reward: 26.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[28 / 40] Final mean reward: 6.0
+[26 / 40] Final mean reward: 26.0
+[30 / 40] Final mean reward: 5.75
+[31 / 40] Final mean reward: 24.25
+[27 / 40] Final mean reward: 9.0
+[29 / 40] Final mean reward: 14.0
+[25 / 40] Final mean reward: 13.75
+[32 / 40] Final mean reward: 11.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[40 / 40] Final mean reward: 26.0
+[33 / 40] Final mean reward: 15.75
+[38 / 40] Final mean reward: 20.25
+[37 / 40] Final mean reward: 15.0
+[39 / 40] Final mean reward: 19.25
+[35 / 40] Final mean reward: 26.25
+[34 / 40] Final mean reward: 16.75
+[36 / 40] Final mean reward: 3.0
+[CONTROLLER] done with batch
+End of population for generation 70.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 34.0
+[CONTROLLER] Average score on all of the processes: 18.91875
+
+[CONTROLLER] Creating generation: 71 ...
+[CONTROLLER] Starting new batch
+[6 / 40] Final mean reward: 20.25
+[2 / 40] Final mean reward: 25.75
+[4 / 40] Final mean reward: 17.5
+[8 / 40] Final mean reward: 12.0
+[5 / 40] Final mean reward: 29.0
+[7 / 40] Final mean reward: 17.25
+[3 / 40] Final mean reward: 11.5
+[1 / 40] Final mean reward: 16.25
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[9 / 40] Final mean reward: 21.5
+[16 / 40] Final mean reward: 18.75
+[14 / 40] Final mean reward: 26.5
+[15 / 40] Final mean reward: 23.25
+[12 / 40] Final mean reward: 29.25
+[10 / 40] Final mean reward: 24.75
+[13 / 40] Final mean reward: 23.25
+[11 / 40] Final mean reward: 10.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[23 / 40] Final mean reward: 20.25
+[22 / 40] Final mean reward: 7.5
+[24 / 40] Final mean reward: 18.25
+[17 / 40] Final mean reward: 22.25
+[18 / 40] Final mean reward: 6.75
+[21 / 40] Final mean reward: 16.0
+[19 / 40] Final mean reward: 13.0
+[20 / 40] Final mean reward: 12.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[31 / 40] Final mean reward: 4.5
+[28 / 40] Final mean reward: 12.5
+[27 / 40] Final mean reward: 29.75
+[32 / 40] Final mean reward: 25.0
+[29 / 40] Final mean reward: 6.5
+[25 / 40] Final mean reward: 18.0
+[26 / 40] Final mean reward: 27.0
+[30 / 40] Final mean reward: 31.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[36 / 40] Final mean reward: 23.0
+[33 / 40] Final mean reward: 6.75
+[40 / 40] Final mean reward: 10.0
+[39 / 40] Final mean reward: 12.5
+[38 / 40] Final mean reward: 7.5
+[35 / 40] Final mean reward: 24.0
+[34 / 40] Final mean reward: 17.0
+[37 / 40] Final mean reward: 22.0
+[CONTROLLER] done with batch
+End of population for generation 71.
+Feeding stuff to the solver
+[CONTROLLER] Current best score: 36.75, new run best score: 31.5
+[CONTROLLER] Average score on all of the processes: 18.04375
+
+[CONTROLLER] Creating generation: 72 ...
+[CONTROLLER] Starting new batch
+[5 / 40] Final mean reward: 16.5
+[2 / 40] Final mean reward: 26.0
+[4 / 40] Final mean reward: 20.75
+[6 / 40] Final mean reward: 24.25
+[7 / 40] Final mean reward: 9.25
+[1 / 40] Final mean reward: 8.25
+[3 / 40] Final mean reward: 9.25
+[8 / 40] Final mean reward: 21.75
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+[12 / 40] Final mean reward: 22.25
+[13 / 40] Final mean reward: 17.75
+[15 / 40] Final mean reward: 26.25
+[9 / 40] Final mean reward: 33.0
+[10 / 40] Final mean reward: 17.5
+[16 / 40] Final mean reward: 11.0
+[14 / 40] Final mean reward: 18.25
+[11 / 40] Final mean reward: 26.5
+[CONTROLLER] done with batch
+[CONTROLLER] Starting new batch
+Stopping training...

@@ -27,10 +27,18 @@ class C(nn.Module):
 
     def __post_init__(self):
         super().__init__()
-        self.fc = nn.Linear(self.input_dim, self.num_actions, bias=False)
+        self.fc = nn.Linear(self.input_dim, self.num_actions, bias=True)
+
+        # self.fc = nn.Linear(self.input_dim, 256, bias=True)
+        # self.fc2 = nn.Linear(256, self.num_actions)
+        # self.relu = nn.ReLU()
 
     def forward(self, x):
         x = self.fc(x)
+
+        # x = self.fc(x)
+        # x = self.relu(x)
+        # x = self.fc2(x)
         return x
 
     def predict(self, x):

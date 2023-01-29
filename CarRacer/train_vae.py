@@ -10,24 +10,27 @@ import torch
 import torch.utils.data
 import config
 from pathlib import Path
-import vae
+from CarRacer import vae
 from matplotlib import pyplot as plt
 from tqdm import tqdm
 from dataset import ReplayDataset, get_dataloaders
 
 
 def test_single_batch(v: Optional[vae.V] = None):
-    if v is None:
-        v = vae.V(**config.VAE).to(config.DEVICE)
 
-    # test the model on a single batch and display the results
+    if v is None:
+        v = vae.V(**config.VAE)
+
+    v.to(config.DEVICE)
+
+    # test_dataset = dataset.VaeDataset(config.VAE_DATASET_DIR / "test")
+    # test_dataloader = DataLoader(test_dataset, batch_size=5, shuffle=True)
     train_d, test_d = get_dataloaders(shuffle_test=True)
-    for batch, indices in test_d:
-        batch = batch.to(config.DEVICE)
-        recon, mu, logvar = v(batch)
-        loss = vae.vae_loss(recon, batch, mu, logvar)
-        # print(f"Loss: {loss.item()}")
-        break
+
+    batch, _ = next(iter(test_d))
+    batch = batch.to(config.DEVICE)
+    recon, mu, logvar = v(batch)
+    loss = vae.vae_loss(recon, batch, mu, logvar)
 
     # plot the original and reconstructed frames
     fig, ax = plt.subplots(2, 5, figsize=(10, 4))
@@ -196,6 +199,10 @@ def save_hidden_states():
         name = replay.stem
         np.savez_compressed(config.Z_DIR / f"{name}.npz", z=hidden_states)
 
+
+if __name__ == "__main__":
+    v = vae.load_vae()
+    test_single_batch(v)
 
 # # function to load vae from checkpoint
 # def load_vae() -> vae.V:

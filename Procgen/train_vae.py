@@ -2,7 +2,7 @@ import random
 import config as cfg
 from vae import V
 import torch
-from typing import Callable, Optional
+from typing import Callable, Optional, Tuple
 import torch.utils.data
 import dataset
 from torch.utils.data import DataLoader
@@ -19,17 +19,29 @@ def train_vae(num_epochs=1,
               vae: Optional[V] = None,
               name: str = "vae.pt"):
 
-    train_dataset = dataset.VaeDataset(randomize=randomize)
-    test_dataset = dataset.VaeDataset(test=True, shuffle=False)
+    #  train_dataset = dataset.VaeDatasetLazy(randomize=randomize)
+    #  test_dataset = dataset.VaeDatasetLazy(test=True, shuffle=False)
 
-    train_dataloader = DataLoader(train_dataset, batch_size=256)
-    test_dataloader = DataLoader(test_dataset, batch_size=512)
+    # new datasets
+    train_dataset = dataset.VaeDataset(cfg.VAE_DATASET_DIR / "train")
+    test_dataset = dataset.VaeDataset(cfg.VAE_DATASET_DIR / "test")
+
+    train_dataloader = DataLoader(train_dataset,
+                                  batch_size=64,
+                                  shuffle=True,
+                                  num_workers=10)
+    test_dataloader = DataLoader(test_dataset,
+                                 batch_size=1024,
+                                 shuffle=False,
+                                 num_workers=10)
 
     if vae is None:
-        vae = V(**cfg.VAE).to(dev)
+        vae = V(**cfg.VAE)
+    vae.to(dev)
 
-    optimizer = torch.optim.Adam(vae.parameters(), lr=1e-4)
+    optimizer = torch.optim.Adam(vae.parameters(), lr=0.001)
 
+    print("Starting training")
     for epoch in range(num_epochs):
         best_loss = float("inf")
 
@@ -57,8 +69,9 @@ def train_vae(num_epochs=1,
 
 
 def test_vae(vae: V, display: bool = True):
-    test_dataset = dataset.VaeDataset(test=True, shuffle=False)
-    test_dataloader = DataLoader(test_dataset, batch_size=256)
+    # test_dataset = dataset.VaeDatasetLazy(test=True, shuffle=False)
+    test_dataset = dataset.VaeDataset(cfg.VAE_DATASET_DIR / "test")
+    test_dataloader = DataLoader(test_dataset, batch_size=2048)
     loss = run_epoch(vae, test_dataloader, train=False)
     print(f"Test loss: {loss:.4f}")
     if display:
@@ -112,13 +125,13 @@ def run_epoch(
     # set up metrics
     avg_loss = float("inf")
     loss_tracker = make_averager()
-    pbar = tqdm(total=len(dataloader.dataset))  #type: ignore
+    pbar = tqdm(enumerate(dataloader), total=len(dataloader))
 
     # set vae to correct mode
     vae.train() if train else vae.eval()
 
     # start of epoch
-    for i, (batch, replay_indices) in enumerate(dataloader):
+    for i, batch in pbar:
         # move to CUDA
         batch = batch.to(cfg.DEVICE)
 
@@ -138,14 +151,14 @@ def run_epoch(
         avg_loss: float = loss_tracker(loss.item())
 
         # update prograss bar
-        max_replay_index = torch.max(replay_indices).item()
-        pbar.n = max_replay_index
+        # max_replay_index = torch.max(replay_indices).item()
+        # pbar.n = i
         pbar.set_description_str(
             f"{'Train' if train else 'Test'} "
             f"epoch{(' ' + str(epoch_index+1)) if train else ''}: "
             f"Loss: {avg_loss:.2f}")
-        pbar.refresh()
-        pbar.update()
+        # pbar.refresh()
+        # pbar.update()
 
     return avg_loss
 
@@ -153,18 +166,14 @@ def run_epoch(
 def test_single_batch(vae: Optional[V] = None):
 
     if vae is None:
-        vae = V(**cfg.VAE).to(cfg.DEVICE)
+        vae = V(**cfg.VAE)
 
-    # test the model on a single batch and display the results
-    test_dataset = dataset.VaeDataset(test=True, shuffle=True)
-    test_dataloader = DataLoader(test_dataset, batch_size=5)
+    vae.to(cfg.DEVICE)
 
-    i = random.randint(0, len(test_dataloader) - 2)
-    it = iter(test_dataloader)
-    for _ in range(i):
-        next(it)
+    test_dataset = dataset.VaeDataset(cfg.VAE_DATASET_DIR / "test")
+    test_dataloader = DataLoader(test_dataset, batch_size=5, shuffle=True)
 
-    batch, indices = next(it)
+    batch = next(iter(test_dataloader))
     batch = batch.to(cfg.DEVICE)
     recon, mu, logvar = vae(batch)
     loss = vae.loss(recon, batch, mu, logvar)
@@ -218,11 +227,53 @@ def save_hidden_states(vae: V):
         np.savez_compressed(cfg.Z_DIR / f"{name}.npz", z=hidden_states)
 
 
+# I wrote a lot of wrappers to use VAEs from this repo: https://github.com/AntixK/PyTorch-VAE
+# I kept a couple here, commented, in case they turn out useful
+
+# from models import VanillaVAE
+
+# class VanillaVaeWrapper(VanillaVAE):
+#     """ Wrapper to try out the implementation of VanillaVAE from GitHub
+#     """
+
+#     def __init__(self, in_channels, latent_dim, hidden_dims=None, **kwargs):
+#         super().__init__(in_channels, latent_dim, hidden_dims, **kwargs)
+
+#     def forward(self, input: torch.Tensor,
+#                 **kwargs) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+#         out = super().forward(input)
+#         return out[0], out[2], out[3]
+
+#     def loss(self, recon, batch, mu, logvar):
+#         out = super().loss_function(recon, batch, mu, logvar, M_N=cfg.KL_WEIGHT)
+#         return out["loss"]
+
+# from models import BetaVAE
+
+# class BetaVaeWrapper(BetaVAE):
+#     """ Wrapper to try out the implementation of VanillaVAE from GitHub
+#     """
+
+#     def __init__(self, in_channels, latent_dim, hidden_dims=[], **kwargs):
+#         super().__init__(in_channels, latent_dim, hidden_dims, **kwargs)
+
+#     def forward(self, input: torch.Tensor,
+#                 **kwargs) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor]:
+#         out = super().forward(input)
+#         return out[0], out[2], out[3]
+
+#     def loss(self, recon, batch, mu, logvar):
+#         out = super().loss_function(recon, batch, mu, logvar, M_N=cfg.KL_WEIGHT)
+#         return out["loss"]
+
 if __name__ == "__main__":
-    v = load_vae("vae.pt")
-    train_vae(num_epochs=100, randomize=False, vae=v, name="vae200.pt")
-    # test_single_batch()
-    # save_hidden_states(v)
+    v = load_vae("vae_z32.pt")
     # v = V(**cfg.VAE).to(cfg.DEVICE)
-    # train_vae(num_epochs=100, randomize=False, vae=v, name="vae.pt")
+    # v = BetaVaeWrapper(in_channels=3, latent_dim=128)
+
+    # test_vae(v)
     # test_single_batch(v)
+    # train_vae(vae=v, num_epochs=10, name="vae_z32.pt")
+    save_hidden_states(v)
+    # train_vae(num_epochs=100, randomize=False, vae=v, name="vae.pt")
+    #  ...

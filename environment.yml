@@ -1,6 +1,7 @@
 name: world-models
 channels:
   - pytorch
+  - nvidia
 dependencies:
   - cudatoolkit
   - jupyter
@@ -8,13 +9,22 @@ dependencies:
   - pip
   - python
   - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
   - tqdm
   - pip:
     - cma
     - gym==0.26.1
     - gym[box2d]
+    - gym[atari]
+    - gym[accept-rom-license]
+    - opencv-python-headless
     - pygame
     - pytorch-lightning
+    - PyYAML=6.0
+    - tensorboard>=2.2.0
+    - torchsummary=1.5.1
     - procgen
     - torchinfo
     - wandb

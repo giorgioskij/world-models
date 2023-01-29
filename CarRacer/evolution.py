@@ -5,6 +5,9 @@
     The main process will not perform any evaluation, therefore it is crucial 
     that CUDA is NEVER initialized in the main process to avoid a huge waste of 
     memory for its initialization.
+
+    The code is taken and adapted from:
+    https://github.com/dylandjian/retro-contest-sonic/blob/master/train_controller.py
 """
 
 from typing import Optional
@@ -65,14 +68,17 @@ def create_results(result_queue, fitlist):
 
 
 def test_controller(c: C):
-    multiprocessing.set_start_method('spawn')
+    # multiprocessing.set_start_method('spawn')
     q = Queue()
     new_game = game.VAECGame(process_id=0,
                              controller=c,
                              result_queue=q,
-                             render_mode="human")
+                             render_mode="rgb-array")
     new_game.rungame()
-    return
+    result = q.get()
+    results = list(result.values())
+    score = results[0][0]
+    return score
 
 
 def train_controller(render_sometimes: bool = True):
@@ -260,5 +266,10 @@ class CMAES:
         return (r[0], -r[1], -r[1], r[6])
 
 
-# if __name__ == "__main__":
-#     train_controller()
+if __name__ == "__main__":
+    # train_controller()
+    c, cp = load_checkpoint(cfg.CKP_DIR / "30-controller.pth.tar")
+    scores = []
+    for _ in range(100):
+        score = test_controller(c)
+        scores.append(score)

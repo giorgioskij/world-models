@@ -5,10 +5,13 @@
     The main process will not perform any evaluation, therefore it is crucial 
     that CUDA is NEVER initialized in the main process to avoid a huge waste of 
     memory for its initialization.
+
+    The code is taken and adapted from:
+    https://github.com/dylandjian/retro-contest-sonic/blob/master/train_controller.py
 """
 
 import config as cfg
-from typing import Optional
+from typing import List, Optional
 from controller import C
 import game
 import numpy as np
@@ -16,19 +19,26 @@ import cma
 import torch
 import math
 import gym
+from agent import Dreamer, Strategy
+import signal
 
 from torch.multiprocessing import Queue
 import torch.multiprocessing as multiprocessing
 
-DEV = torch.device("cpu")
+# DEV = torch.device("cpu")
 
 
 def init_controller(c, solution):
     """ Change weights of the controller to the ones proposed by CMA
     """
-    new_w1 = torch.tensor(solution, dtype=torch.double, device=DEV)
+    new_weight = torch.from_numpy(solution)[:-cfg.GAME.num_actions].reshape(
+        -1, cfg.CONTROLLER["input_dim"])
+    new_bias = torch.from_numpy(solution)[-cfg.GAME.num_actions:]
+
+    # new_w1 = torch.tensor(solution, dtype=torch.float)
     params = c.state_dict()
-    params["fc.weight"].data.copy_(new_w1.view(-1, cfg.CONTROLLER["input_dim"]))
+    params["fc.weight"].data.copy_(new_weight)
+    params["fc.bias"].data.copy_(new_bias)
 
 
 def compute_ranks(x):
@@ -65,19 +75,31 @@ def create_results(result_queue, fitlist):
     return times
 
 
-def test_controller(c: C):
-    multiprocessing.set_start_method('spawn')
-    q = Queue()
-    new_game = game.VAECGame(process_id=0,
-                             controller=c,
-                             result_queue=q,
-                             render_mode="human")
-    new_game.rungame()
-    return
+def test_controller(c: C, render: bool = True):
+    # multiprocessing.set_start_method('spawn')
+    # q = Queue()
+    # new_game = game.VAECGame(process_id=0,
+    #                          controller=c,
+    #                          result_queue=q,
+    #                          render_mode="human")
+    # new_game.rungame()
+    agent = Dreamer(strategy=Strategy.MODEL)
+    agent.load_memory()
+    agent.load_vae()
+    agent.load_controller(c)
+    # new_game = game.DreamChaser(agent=agent, render=True, save_episodes=False)
+    # new_game.play()
+    new_game = game.DreamChaserProcess(agent=agent,
+                                       controller=c,
+                                       render=render,
+                                       n_games=1)
+    result = new_game.run()
+    return result
 
 
 def train_controller(number_generations: int = 1,
-                     render_sometimes: bool = True):
+                     render_sometimes: bool = True,
+                     initial_controller: Optional[C] = None):
     """ Train the controller using CMA-ES, with parallel batch evaluation.
         The code for this function is adapted from:
         https://github.com/dylandjian/retro-contest-sonic
@@ -88,14 +110,18 @@ def train_controller(number_generations: int = 1,
     n_parallel = cfg.PARALLEL
     popsize = cfg.POPULATION
 
-    # popsize = 3
+    # popsize = 6
     # n_parallel = 1
     # number_generations = 10
 
     # initialize controller and solver
-    best_c = C(**cfg.CONTROLLER)
+    best_c = initial_controller or C(**cfg.CONTROLLER)
     num_controller_params = sum(p.numel() for p in best_c.parameters())
-    solver = CMAES(num_controller_params, sigma_init=4, popsize=popsize)
+    solver = CMAES(
+        num_controller_params,
+        sigma_init=cfg.SIGMA_INIT,
+        popsize=popsize,
+    )
     result_queue = Queue()
     current_best = -math.inf
     current_ctrl_version = 1
@@ -110,13 +136,11 @@ def train_controller(number_generations: int = 1,
         while eval_left < popsize:
             if eval_left == 0 and render_sometimes:
                 render = True
-                # MODE = "human"
             else:
                 render = False
-                # MODE = "rgb-array"
             jobs = []
-            todo = n_parallel if eval_left + n_parallel <= popsize else (
-                eval_left + n_parallel) % popsize
+            todo = (n_parallel if eval_left + n_parallel <= popsize else
+                    popsize - eval_left)
 
             # spawn the processes
             print("[CONTROLLER] Starting new batch")
@@ -135,14 +159,21 @@ def train_controller(number_generations: int = 1,
                     result_queue=result_queue,
                     process_id=process_id,
                 )
+                render = False
                 # new_game.run()
                 new_game.start()
 
                 jobs.append(new_game)
 
-            # collect the processes
-            for p in jobs:
-                p.join()
+            try:
+                # collect the processes
+                for p in jobs:
+                    p.join()
+            except KeyboardInterrupt:
+                for p in jobs:
+                    p.kill()
+                print("Stopping training...")
+                return
 
             eval_left += todo
             print("[CONTROLLER] done with batch")
@@ -161,12 +192,12 @@ def train_controller(number_generations: int = 1,
         fitlist = rankmin(fitlist)
         print("Feeding stuff to the solver")
         solver.tell(fitlist)
-        new_results = solver.result
+        # new_results = solver.result()
 
         ## Display
-        print("[CONTROLLER] Total duration for generation: %.3f seconds, average duration:"
-            " %.3f seconds per process, %.3f seconds per run" % ((np.sum(times), \
-                    np.mean(times), np.mean(times) / cfg.REPEAT_ROLLOUT)))
+        # print("[CONTROLLER] Total duration for generation: %.3f seconds, average duration:"
+        #     " %.3f seconds per process, %.3f seconds per run" % ((np.sum(times), \
+        #             np.mean(times), np.mean(times) / cfg.REPEAT_ROLLOUT)))
 
         print("[CONTROLLER] Current best score: {}, new run best score: {}".
               format(current_best, current_score))
@@ -191,7 +222,7 @@ def train_controller(number_generations: int = 1,
 
 def save_checkpoint(c, state):
 
-    filename = cfg.CKP_DIR / f"{state['version']}-controller.pth.tar"
+    filename = cfg.CKP_DIR / f"{state['version']}-controller.pth"
     state["model"] = c.state_dict()
     torch.save(state, filename)
 
@@ -274,5 +305,10 @@ class CMAES:
 
 
 if __name__ == "__main__":
-    train_controller(number_generations=1000, render_sometimes=False)
-    ...
+    # controller, cp = load_checkpoint(cfg.CKP_DIR / "8-controller.pth")
+    controller = C(**cfg.CONTROLLER).to(cfg.DEVICE)
+    # result = test_controller(controller, render=True)
+    train_controller(number_generations=10000,
+                     render_sometimes=False,
+                     initial_controller=controller)
+    # ...

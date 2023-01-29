@@ -10,6 +10,8 @@ import timeit
 from typing import Optional, Union
 import cv2
 import gym
+from PIL import Image
+from gym.spaces.box import Box
 import random
 from agent import Dreamer, Strategy
 import numpy as np
@@ -18,11 +20,10 @@ import torch.multiprocessing as multiprocessing
 import controller
 
 
-class DreamChaser():
+class DreamGame():
 
     def __init__(
         self,
-        game: Games,
         agent: Optional[Dreamer],
         render: bool = True,
         save_episodes: bool = False,
@@ -31,7 +32,7 @@ class DreamChaser():
         self.agent: Optional[Dreamer] = agent
         self.render: bool = render
         self.save_episodes: bool = save_episodes
-        self.game: Games = game
+        # self.game: Games = game
 
     def play(self, seed: Optional[int] = None, num_episodes: int = 1):
         if self.agent is None:
@@ -47,17 +48,22 @@ class DreamChaser():
             # initialize seed and savefile
             seed = random.randint(0, 2**31 - 1)
             if self.save_episodes:
-                game_name = "chaser" if self.game == Games.CHASER else "dodgeball"
+                game_name = cfg.GAME.name.lower()
+                # game_name = "chaser" if self.game == Games.CHASER else "dodgeball"
                 save_file = cfg.REPLAY_DIR / game_name / f"{seed}.npz"
 
             # create environment
             env = gym.make(
-                self.game.longname,
+                cfg.GAME.longname,
                 render_mode="human" if self.render else "rgb_array",
                 # distribution_mode="hard",
             )
+            if cfg.GAME == Games.ENDURO:
+                env = ResizeFrame(env)
 
             obs = env.reset()
+            if cfg.GAME == Games.ENDURO:
+                obs = obs[0]
 
             # initialize actions, rewards, observations arrays
             actions = []
@@ -79,7 +85,13 @@ class DreamChaser():
                 action = self.agent.choose_action(obs)
 
                 # perform the action and get the reward and new observation
-                new_obs, r, done, i = env.step(action)  # type: ignore
+                out = env.step(action)  #type: ignore
+                if cfg.GAME == Games.ENDURO:
+                    new_obs, r, truncated, terminated, _ = out
+                    # new_obs = self.reshape_obs(new_obs)
+                    done = truncated or terminated
+                else:
+                    new_obs, r, done, _ = out  #type: ignore
 
                 # save the experience
                 if self.save_episodes:
@@ -113,12 +125,38 @@ class DreamChaser():
 
         return total_steps, total_rewards
 
+    # def reshape_obs(self, obs: np.ndarray):
+    #     obs = obs[15:155, 10:, :]
 
-class DreamChaserProcess(DreamChaser, multiprocessing.Process):
+
+class ResizeFrame(gym.ObservationWrapper):
+    """
+    Environment wrapper which alters the frame images.
+    Removes the bottom section containing score and other info and 
+    resizes the frame to 64x64
+    """
+
+    def __init__(self, env, imwidth=64, imheight=64):
+        super().__init__(env)
+        self.imwidth = imwidth
+        self.imheight = imheight
+        self.observation_space = Box(low=0,
+                                     high=255,
+                                     shape=(self.imwidth, self.imheight, 3))
+
+    def observation(self, frame: np.ndarray) -> np.ndarray:
+        # cut the bottom section of the image containing the score
+        frame = frame[15:155, 10:, :]
+        # resize image with pillow to 64x64
+        frame = np.array(
+            Image.fromarray(frame).resize((self.imwidth, self.imheight)))
+        return frame
+
+
+class DreamChaserProcess(DreamGame, multiprocessing.Process):
 
     def __init__(
         self,
-        game: Games,
         agent: Optional[Dreamer] = None,
         controller: Optional[controller.C] = None,
         render: bool = True,
@@ -132,11 +170,10 @@ class DreamChaserProcess(DreamChaser, multiprocessing.Process):
         self.n_games: int = n_games
         self.result_queue: Optional[multiprocessing.Queue] = result_queue
         self.process_id: Optional[int] = process_id
-        DreamChaser.__init__(self,
-                             game=game,
-                             agent=agent,
-                             render=render,
-                             save_episodes=save_episodes)
+        DreamGame.__init__(self,
+                           agent=agent,
+                           render=render,
+                           save_episodes=save_episodes)
         multiprocessing.Process.__init__(self)
 
     def run(self):
@@ -146,14 +183,14 @@ class DreamChaserProcess(DreamChaser, multiprocessing.Process):
         # total_reward = []
 
         if self.agent is None:
-            self.agent = Dreamer(game=self.game, strategy=Strategy.MODEL)
+            self.agent = Dreamer(strategy=Strategy.MODEL)
             self.agent.load_memory()
             self.agent.load_vae()
             if controller is not None:
                 self.agent.load_controller(self.controller)
 
         start_time = timeit.default_timer()
-        steps, rewards = DreamChaser.play(self, num_episodes=self.n_games)
+        steps, rewards = DreamGame.play(self, num_episodes=self.n_games)
 
         final_time = timeit.default_timer() - start_time
         if self.result_queue is not None and self.process_id is not None:
@@ -162,6 +199,7 @@ class DreamChaserProcess(DreamChaser, multiprocessing.Process):
             result = {}
             result[self.process_id] = (np.mean(rewards), final_time)
             self.result_queue.put(result)
+        return rewards
 
 
 def frames_to_video(frames: Union[torch.Tensor, np.ndarray],
@@ -182,9 +220,7 @@ def frames_to_video(frames: Union[torch.Tensor, np.ndarray],
 if __name__ == "__main__":
     gym.logger.setLevel(gym.logger.ERROR)
 
-    dreamer = Dreamer(strategy=Strategy.RANDOM, game=Games.DODGEBALL)
-    game = DreamChaser(Games.DODGEBALL,
-                       agent=dreamer,
-                       render=True,
-                       save_episodes=False)
+    # game_type = Games.ENDURO
+    dreamer = Dreamer(strategy=Strategy.RANDOM)
+    game = DreamGame(agent=dreamer, render=True, save_episodes=False)
     game.play()

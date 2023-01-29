@@ -1,5 +1,5 @@
 import os
-from typing import Optional
+from typing import Optional, List
 from pathlib import Path
 import numpy as np
 import torch
@@ -7,10 +7,11 @@ import torch.utils.data
 from torch.nn import functional as F
 from torch.nn import utils as nnutils
 import config as cfg
-from matplotlib import pyplot as plt
+from tqdm import tqdm
+import torchvision as tv
 
 
-class VaeDataset(torch.utils.data.IterableDataset):
+class VaeDatasetLazy(torch.utils.data.IterableDataset):
     """ Dataset for the scenarios collected in the random rollouts. """
 
     def __init__(
@@ -70,7 +71,35 @@ class VaeDataset(torch.utils.data.IterableDataset):
                                 255).permute(2, 0, 1)
                 if self.randomize:
                     image_tensor = self.transform_vec(image_tensor)
-                yield image_tensor, r_index
+                yield image_tensor
+
+    def dump_dataset(self, dump_path: Path):
+
+        global_index = 0
+        for replay in tqdm(self.replays,
+                           "Loading and dumping replays...",
+                           total=len(self.replays)):
+            try:
+                loaded = np.load(replay)
+                obs = loaded["observations"]
+            except:
+                print(f"Error loading replay {replay}")
+                continue
+
+            # convert observations into tensors
+            for i in range(0, len(obs), 2):
+                image = obs[i]
+                # convert to tensor
+                image_tensor = (torch.tensor(image, dtype=torch.float32) /
+                                255).permute(2, 0, 1)
+                # if necessary, apply random patches
+                if self.randomize:
+                    image_tensor = self.transform_vec(image_tensor)
+
+                tv.utils.save_image(image_tensor,
+                                    dump_path / f"{global_index:07}.png")
+                global_index += 1
+        return
 
     def get_generic_mask(self):
         intervals = [(5, 10), (15, 20), (25, 30), (34, 39), (44, 49), (54, 59)]
@@ -105,6 +134,20 @@ class VaeDataset(torch.utils.data.IterableDataset):
         # original, but randoms in the areas to randomize
         final_image = masked_image + random_mask
         return final_image
+
+
+class VaeDataset(torch.utils.data.Dataset):
+
+    def __init__(self, root: Path):
+        self.root: Path = root
+        self.image_paths = sorted(root.glob("*.png"), key=os.path.basename)
+
+    def __len__(self):
+        return len(self.image_paths)
+
+    def __getitem__(self, idx):
+        image = tv.io.read_image(str(self.image_paths[idx]))
+        return image / 255
 
 
 class LstmDataset(torch.utils.data.IterableDataset):
@@ -143,14 +186,13 @@ class LstmDataset(torch.utils.data.IterableDataset):
         return len(self.replays)
 
     def __iter__(self):
-        for r_index, (replay,
-                      z) in enumerate(zip(self.replays, self.hidden_states)):
+        for _, (replay, z) in enumerate(zip(self.replays, self.hidden_states)):
             data = np.load(replay)
             actions = data["actions"]
             hidden_states = np.load(z)["z"]
 
             actions = torch.tensor(actions, dtype=torch.long)
-            actions = F.one_hot(actions, num_classes=cfg.NUM_ACTIONS)
+            actions = F.one_hot(actions, num_classes=cfg.GAME.num_actions)
             hidden_states = torch.tensor(hidden_states,
                                          dtype=torch.float32).squeeze()
 
@@ -168,8 +210,8 @@ def lstm_collate_fn(data):
     # dummy_z = torch.zeros((cfg.MAX_STEPS, hidden_states[0].shape[-1]),
     #                       dtype=torch.float32)
     # dummy_a = torch.zeros((cfg.MAX_STEPS), dtype=torch.float32)
-    # padded_z = nnutils.rnn.pad_sequence((*hidden_states, dummy_z))  #type:ignore
-    # padded_actions = nnutils.rnn.pad_sequence((*actions, dummy_a))  #type:ignore
+    # padded_z = nnutils.rnn.pad_sequence((*hidden_states, dummy_z))
+    # padded_actions = nnutils.rnn.pad_sequence((*actions, dummy_a))
 
     padded_z = nnutils.rnn.pad_sequence((hidden_states))  #type:ignore
     padded_actions = nnutils.rnn.pad_sequence((actions))  #type:ignore
@@ -271,9 +313,20 @@ def vectorized_randomize(img: torch.Tensor):
     plt.show()
 
 
+# create lazy datasets, then call the dump method to materialize final datasets
+def create_datasets():
+    # train
+    d = VaeDatasetLazy(replay_dir=cfg.REPLAY_DIR / "enduro",
+                       shuffle=False,
+                       test=False)
+    d.dump_dataset(cfg.VAE_DATASET_DIR / "enduro" / "train")
+    # test
+    d = VaeDatasetLazy(replay_dir=cfg.REPLAY_DIR / "enduro",
+                       shuffle=False,
+                       test=True)
+    d.dump_dataset(cfg.VAE_DATASET_DIR / "enduro" / "test")
+
+
 if __name__ == "__main__":
-    d = LstmDataset()
-    dd = torch.utils.data.DataLoader(d,
-                                     batch_size=4,
-                                     collate_fn=lstm_collate_fn)
-    next(iter(dd))
+
+    ...

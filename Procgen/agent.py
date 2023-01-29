@@ -1,3 +1,9 @@
+"""
+The Dreamer class is THE AGENT. It is a wrapper for the three models
+(VAE, MDN-RNN and controller) and contains the very important method 
+choose_action_model(self, obs) which takes the observation and runs it through
+all of the models to update the world model and come up with the action to take.
+"""
 import config as cfg
 from typing import Optional
 from implemented_games import Games
@@ -16,14 +22,11 @@ class Strategy(Enum):
 
 class Dreamer:
 
-    def __init__(self,
-                 game: Games,
-                 strategy: Strategy,
-                 device: torch.device = cfg.DEVICE):
+    def __init__(self, strategy: Strategy, device: torch.device = cfg.DEVICE):
         self.strategy: Strategy = strategy
         self.device: torch.device = device
-        self.game: Games = game
-        self.num_actions: int = game.num_actions  #type:ignore
+        # self.game: Games = game
+        # self.num_actions: int = game.num_actions  #type:ignore
 
         self.memory: Optional[M] = None
         self.vae: Optional[V] = None
@@ -40,7 +43,7 @@ class Dreamer:
         self.vae.to(self.device)
 
     def load_memory(self):
-        self.memory = M(**cfg.LSTM, input_size=cfg.Z_DIM + self.num_actions)
+        self.memory = M(**cfg.LSTM)
         self.memory.load_state_dict(torch.load(cfg.CKP_DIR / "memory.pt"))
         self.memory.to(self.device)
 
@@ -51,7 +54,7 @@ class Dreamer:
 
     def load_controller(self, controller: Optional[C] = None):
         if controller is None:
-            controller = C(**cfg.CONTROLLER, num_actions=self.num_actions)
+            controller = C(**cfg.CONTROLLER)
             controller.load_state_dict(torch.load(cfg.CKP_DIR /
                                                   "controller.pt"))
         self.controller = controller  # type: ignore
@@ -66,7 +69,7 @@ class Dreamer:
             raise NotImplementedError
 
     def choose_action_random(self):
-        return self.game.sampleAction()
+        return cfg.GAME.sample_action()
 
     def choose_action_model(self, obs):
 
@@ -95,7 +98,8 @@ class Dreamer:
             predicted_action = self.controller.predict(z_h)  # type:ignore
 
             # concatenate chosen action and latent vector to update memory
-            action_one_hot = F.one_hot(predicted_action, num_classes=9)
+            action_one_hot = F.one_hot(predicted_action,
+                                       num_classes=cfg.GAME.num_actions)
             z_a = torch.cat((z.squeeze(), action_one_hot), dim=-1)
 
             # update memory

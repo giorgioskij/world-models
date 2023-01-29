@@ -18,6 +18,7 @@ from torch.nn import functional as F
 import torch
 from dataclasses import dataclass
 import mdn
+import global_config as cfg
 
 
 @dataclass(repr=False, unsafe_hash=True)
@@ -30,8 +31,7 @@ class M(nn.Module):
     num_layers: int
     n_gaussians: int
     input_size: int
-    device: torch.device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu")
+    device: torch.device = cfg.DEVICE
 
     def __post_init__(self):
         super().__init__()

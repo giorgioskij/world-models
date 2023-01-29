@@ -1,6 +1,7 @@
-# this whole file is taken from https://github.com/sagelywizard/pytorch-mdn
-"""A module for a mixture density network layer
+"""
+A module for a mixture density network layer
 For more info on MDNs, see _Mixture Desity Networks_ by Bishop, 1994.
+The code is taken and adapted from https://github.com/sagelywizard/pytorch-mdn
 """
 import torch
 import torch.nn as nn

@@ -1,3 +1,7 @@
-checkpoints/
 latent_states/
-replays*
+replays/
+checkpoints/
+vae_dataset/
+PyTorch-VAE/
+
+__pycache__/

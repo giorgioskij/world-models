@@ -1,6 +1,6 @@
 """
     Implementation of game-related stuff.
-    The game is Chaser, from the PROCGEN suite.
+
 """
 
 import config as cfg
@@ -21,6 +21,10 @@ import controller
 
 
 class DreamGame():
+    """
+        Wrapper class to implement the game loop, with the option to save the 
+        episodes to disk
+    """
 
     def __init__(
         self,

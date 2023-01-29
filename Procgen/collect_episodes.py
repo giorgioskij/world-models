@@ -17,10 +17,7 @@ def terminate_processes(process_list):
 if __name__ == "__main__":
     gym.logger.setLevel(gym.logger.ERROR)
 
-    dreamer = Dreamer(
-        game=Games.ENDURO,
-        strategy=Strategy.RANDOM,
-    )
+    dreamer = Dreamer(strategy=Strategy.RANDOM,)
 
     print(f"Main PID: {os.getpid()}")
     n_processes = 1
@@ -29,8 +26,7 @@ if __name__ == "__main__":
 
     processes = []
     for i in range(n_processes):
-        p = DreamChaserProcess(game=Games.ENDURO,
-                               agent=dreamer,
+        p = DreamChaserProcess(agent=dreamer,
                                render=False,
                                save_episodes=True,
                                n_games=games_per_process)

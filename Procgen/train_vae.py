@@ -267,13 +267,12 @@ def save_hidden_states(vae: V):
 #         return out["loss"]
 
 if __name__ == "__main__":
-    v = load_vae("vae_z32.pt")
-    # v = V(**cfg.VAE).to(cfg.DEVICE)
+    v = V(**cfg.VAE).to(cfg.DEVICE)
     # v = BetaVaeWrapper(in_channels=3, latent_dim=128)
 
     # test_vae(v)
     # test_single_batch(v)
     # train_vae(vae=v, num_epochs=10, name="vae_z32.pt")
-    save_hidden_states(v)
+    # save_hidden_states(v)
     # train_vae(num_epochs=100, randomize=False, vae=v, name="vae.pt")
     #  ...

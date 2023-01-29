@@ -1,3 +1,8 @@
+"""
+An implementation of the very popular REINFORCE algorithm.
+I used it in various occasions for reference, and I tried to train the
+controller on the game Enduro with this algorithm.
+"""
 from game import ResizeFrame
 from implemented_games import Games
 from typing import *
@@ -23,6 +28,11 @@ def reinforce(
     m_path: Path = cfg.CKP_DIR / "memory.pt",
     v_path: Path = cfg.CKP_DIR / "vae.pt",
 ) -> Tuple[List[float], List[float]]:
+    """
+    NOTE: the lines regarding the memory are currently commented out, because
+    I tried to train the controller passing as input ONLY the z_vector.
+    Expectedly, it did not improve anything. 
+    """
 
     losses: List[float] = []
     total_rewards: List[float] = []

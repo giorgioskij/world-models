@@ -1,3 +1,9 @@
+"""
+The Dreamer class is THE AGENT. It is a wrapper for the three models
+(VAE, MDN-RNN and controller) and contains the very important method 
+choose_action_model(self, obs) which takes the observation and runs it through
+all of the models to update the world model and come up with the action to take.
+"""
 from typing import Optional, Tuple
 import torch
 import config

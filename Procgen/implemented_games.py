@@ -1,3 +1,9 @@
+"""
+A collection of enums to describe the games implemented and the available 
+action for each of them.
+
+When adding a new game, the first thing to do is to extend this file accordingly.
+"""
 from enum import Enum
 import random
 

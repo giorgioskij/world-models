@@ -207,6 +207,6 @@ if __name__ == "__main__":
 
     m = memory.M(**cfg.LSTM,).to(cfg.DEVICE)
     # test_memory(m)
-    train_memory(m, num_epochs=20)
+    # train_memory(m, num_epochs=20)
     # simulate(m)
     # ...

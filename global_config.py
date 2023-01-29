@@ -9,7 +9,7 @@ from pathlib import Path
 DEVICE: torch.device = torch.device(
     "cuda" if torch.cuda.is_available else "cpu")
 
-MAX_STEPS: int = 1000
+MAX_STEPS: int = 100_000_000
 # MAX_STEPS_TEST: int = 3000
 MAX_STEPS_REPLAY: int = 1000
 IMWIDTH: int = 64

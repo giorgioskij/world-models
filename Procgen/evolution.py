@@ -94,6 +94,7 @@ def test_controller(c: C, render: bool = True):
                                        render=render,
                                        n_games=1)
     result = new_game.run()
+    print(f"Result: {result}")
     return result
 
 
@@ -305,10 +306,13 @@ class CMAES:
 
 
 if __name__ == "__main__":
-    # controller, cp = load_checkpoint(cfg.CKP_DIR / "8-controller.pth")
-    controller = C(**cfg.CONTROLLER).to(cfg.DEVICE)
-    # result = test_controller(controller, render=True)
-    train_controller(number_generations=10000,
-                     render_sometimes=False,
-                     initial_controller=controller)
+    controller, cp = load_checkpoint(cfg.CKP_DIR / "31-controller.pth")
+    # controller = C(**cfg.CONTROLLER).to(cfg.DEVICE)
+    results = []
+    for _ in range(100):
+        result = test_controller(controller, render=False)
+        results.append(result)
+    # train_controller(number_generations=10000,
+    #                  render_sometimes=False,
+    #                  initial_controller=controller)
     # ...

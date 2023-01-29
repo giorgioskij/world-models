@@ -2,6 +2,8 @@
 
 This repo contains my code for the implementation of https://worldmodels.github.io/
 
+The report is the file `report.pdf` in the main directory of this repository.
+
 This informal readme explains a bit of the structure of the project at the time of submission.
 Some heavy refactoring would be needed to make the code more cohesive and modular, but it doens't seem a good idea to risk breaking something just before the submission, so it will happen after the deadline.
 
